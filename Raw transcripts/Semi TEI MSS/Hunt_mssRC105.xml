@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement>San Marino</settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 105</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename>John</forename>
+                  <forename></forename>
+                  <surname>Fellows</surname>
+               </persName>
+               <placeName>
+                  <country>USA</country>
+                  <region>New York</region>
+                  <settlement>New York</settlement>
+                  <idno></idno>
+               </placeName>
+               <date>18361130</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename>Richard</forename>
+                  <forename></forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <placeName>
+                  <country></country>
+                  <region></region>
+                  <settlement></settlement>
+                  <idno></idno>
+               </placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Sir, I received your letter of —— acknowledging the receipt of my work on the mysteries including Freemasonry — stating that you had not fully perused it and therefore had not made up your option in regard to the probability of the sale of a republication of it in Englan.d
+            the bearer of this resides in this city, and will soon return. i should like to hear farther from you on the subject by him.</p>
+         <p>we understand that you are lecturing on the holy scriptures, showing them to be mainly allegorical— i have <persName>Sir <forename>William</forename> <surname>Drummond</surname>'s <idno></idno> </persName> work on the subjects; and find it very plaussible [sic] in respect to many parts of this holy book. this fact being proved renders the bible null and void as to its inspiration.</p>
+         <p>i am now concerned in the editing of a liberal work, entitled the Beacon – of which i send you the numbers as far printed.—</p>
+            <p>the bearer is waiting —</p>
+            <p>yours sincerely</p>
+            <p>john fellows</p>
+      </body>
+  </text>
+</TEI>
