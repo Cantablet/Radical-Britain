@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement>San Marino</settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 80</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename>Thomas</forename>
+                  <forename>Paine</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <placeName>
+                  <country>UK</country>
+                  <region></region>
+                  <settlement>Manchester</settlement>
+                  <idno></idno>
+               </placeName>
+               <date>18361208</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename>Thomas</forename>
+                  <forename></forename>
+                  <surname>Turton</surname>
+               </persName>
+               <placeName>
+                  <country>UK</country>
+                  <region></region>
+                  <settlement>Sheffield</settlement><!--inferred from context-->
+                  <idno></idno>
+               </placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <p>Dear Sir</p>
+        <p>i am perfectly aware that i ought to have written sooner to let you know how we got on at Huddersfield, but illness is my excuse and business Father[']s, i am not quite certain whether it was grief at leaving Sheffield, or the sight of Huddersfield,  the most horrible town i ever put my foot in, that caused my illness but i was taken very ill on Saturday night, but thank the Father Son and Holy Ghost i am recovering,</p>
+        <p>Father delivered six lectures in Huddersfield, commencing on Thursday, with three on Sunday, to an audience something like Angel's visits "few and far between", in a room, not [[2]] a room but a hen roost, or pig stye [sic] or hardly good enough for either, He left on Monday afternoon and arrived here about eight in the evening, since which time i have only left my bed when nature or God the Father, the physical power forced me,</p>
+        <p>Father is gone to Bolton to Lecture this evening, and perhaps to-morrow, he is not over well.</p>
+        <p>If any thing particular should [happen/arise?] in the course of a few days, a letter will find us at Mr Heywood[']s 60 Oldham Street,</p>
+        <p>the Owenistites are creating a great sensation here, there are Lectures and sermons preached by the parsons every day, on the danger of the "Infidelity preached at Mr Bywater's Rooms"</p>
+        <p>I must be quick the senna is nearly ready and i shan't be able to write after that.</p> 
+        [[3]] i hear for certain that Mr. C. Clements is discharged from the Champion, Give our compliments to all respectable Infidels, and say that [father] is grieved that he could not convert them, to the true Faith,
+        Say something very kind for me to all your family, I'm afraid i shall never see them again, as i expect, in the present state of things, to be in Abraham's bosom before next spring.
+        i remain | rather worse than i was a week ago
+        thomas paine carlile
+        Assitan[t] Missionary in the cause of Our Lord and Saviour | Jesus Christ
+        
+        My kindest love to Mrs B.....
+     </body>
+  </text>
+</TEI>
