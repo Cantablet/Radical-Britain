@@ -12,54 +12,23 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country></country>
-                  <region></region>
-                  <settlement></settlement>
-                  <institution></institution>
-                  <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
-                  <msName></msName>
-               </msIdentifier>
-            </msDesc>
+            <bibl></bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-         <correspDesc>
-            <correspAction type="sent">
-               <persName>
-                  <forename></forename>
-                  <forename></forename>
-                  <surname></surname>
-               </persName>
-               <placeName>
-                  <country></country>
-                  <region></region>
-                  <settlement></settlement>
-                  <idno></idno>
-               </placeName>
-               <date></date>
-            </correspAction>
-            <correspAction type="received">
-               <persName>
-                  <forename></forename>
-                  <forename></forename>
-                  <surname></surname>
-               </persName>
-               <placeName>
-                  <country></country>
-                  <region></region>
-                  <settlement></settlement>
-                  <idno></idno>
-               </placeName>
-               <date></date>
-            </correspAction>            
-         </correspDesc>
-      </profileDesc>
   </teiHeader>
   <text>
-      <body></body>
+      <body>
+         <listPerson>
+            <person>
+               <persName></persName>
+               <birth>
+                  <placeName></placeName>
+               </birth>
+               <death>
+                  <placeName></placeName>
+               </death>
+            </person>
+         </listPerson>
+      </body>
   </text>
 </TEI>
