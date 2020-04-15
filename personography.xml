@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country></country>
+                  <region></region>
+                  <settlement></settlement>
+                  <institution></institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno></idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>
+                  <forename></forename>
+                  <forename></forename>
+                  <surname></surname>
+               </persName>
+               <placeName>
+                  <country></country>
+                  <region></region>
+                  <settlement></settlement>
+                  <idno></idno>
+               </placeName>
+               <date></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>
+                  <forename></forename>
+                  <forename></forename>
+                  <surname></surname>
+               </persName>
+               <placeName>
+                  <country></country>
+                  <region></region>
+                  <settlement></settlement>
+                  <idno></idno>
+               </placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body></body>
+  </text>
+</TEI>
