@@ -16,3 +16,7 @@ Places
   
   tgn ## Getty Thesaurus of Geographical names, for city/town/village identification, from http://getty.edu/research/tools/vocabularies/tgn
     
+
+Groups/Organisations
+
+  grp ## group (project specific), using unique ID assigned in references/groups/groupography.xml
