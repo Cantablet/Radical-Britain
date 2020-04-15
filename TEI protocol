@@ -2,7 +2,7 @@ The following prefix definitions are used in the project (example IDs are given 
 
 People
 
-  psn ## person, using unique ID assigned in references/people/personography.xml
+  prsn ## person, using unique ID assigned in references/people/personography.xml
       ## NB This ID uses the first four characters of the surname (or pseudonym, if identity unknown) and two numbers, e.g. Carl01
      
   isni ## ISNI, International Standard Name Identifier (ISO 27729), from http://www.isni.org, e.g. 0000 0000 6300 2493
