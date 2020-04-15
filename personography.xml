@@ -15,6 +15,34 @@
             <bibl></bibl>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="prsn" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="isni" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="http://isni.org/isni/$1">
+           </prefixDef>
+           <prefixDef ident="viaf" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://viaf.org/viaf/$1">
+           </prefixDef>
+           <prefixDef ident="plc" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/placeography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="tgn" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+           </prefixDef>
+           <prefixDef ident="grp" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/groupography.xml#$1"">
+           </prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
   </teiHeader>
   <text>
       <body>
