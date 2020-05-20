@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl></bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="prsn" 
+              matchPattern="([a-z]+)" 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="isni" 
+              matchPattern="([a-z]+)" 
+              replacementPattern="http://isni.org/isni/$1">
+           </prefixDef>
+           <prefixDef ident="viaf" 
+              matchPattern="([a-z]+)" 
+              replacementPattern="https://viaf.org/viaf/$1">
+           </prefixDef>
+           <prefixDef ident="plc" 
+              matchPattern="([a-z]+)" 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/placeography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="tgn" 
+              matchPattern="([a-z]+)" 
+              replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+           </prefixDef>
+           <prefixDef ident="grp" 
+              matchPattern="([a-z]+)" 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/groupography.xml#$1"">
+           </prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <listPerson>
+           <person>
+              <idno type="prsn">carl01</idno>
+              <idno type="isni">0000000063002493</idno>
+              <idno type="viaf">36926352</idno>
+              <persName>
+                 <forename sort="2">Richard</forename>
+                 <surname sort="1">Carlile</surname>
+              </persName>
+              <birth>
+                 <date when="1790"></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when="1843"></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality>UK</nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+        </listPerson>
+     </body>
+  </text>
+</TEI>
