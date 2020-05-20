@@ -1,4 +1,22 @@
-Transcription and markup will use the following elements of the TEI protocol:
+The following prefix definitions are used in the project (example IDs are given for Richard Carlile)
 
+People
 
-Letters:-
+  prsn ## person, using unique ID assigned in references/people/personography.xml
+      ## NB This ID uses the first four characters of the surname (or pseudonym, if identity unknown) and two numbers, e.g. Carl01
+     
+  isni ## ISNI, International Standard Name Identifier (ISO 27729), from http://www.isni.org, e.g. 0000 0000 6300 2493
+  
+  viaf ## Virtual International Authority File, from https://viaf.org, e.g. 36926352   
+    
+Places
+
+  plc ## place (project specific), using unique ID assigned in references/places/placeography.xml
+      ## For personal addresses, pubs, etc
+  
+  tgn ## Getty Thesaurus of Geographical names, for city/town/village identification, from http://getty.edu/research/tools/vocabularies/tgn
+    
+
+Groups/Organisations
+
+  grp ## group (project specific), using unique ID assigned in references/groups/groupography.xml
