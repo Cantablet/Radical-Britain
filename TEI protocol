@@ -5,14 +5,15 @@ People
   prsn ## person, using unique ID assigned in references/people/personography.xml
       ## NB This ID uses the first four characters of the surname (or pseudonym, if identity unknown) and two numbers, e.g. Carl01
      
-  isni ## ISNI, International Standard Name Identifier (ISO 27729), from http://www.isni.org, e.g. 0000 0000 6300 2493
+  isni ## ISNI, International Standard Name Identifier (ISO 27729), from http://www.isni.org, e.g. 0000000063002493
   
   viaf ## Virtual International Authority File, from https://viaf.org, e.g. 36926352   
     
 Places
 
   plc ## place (project specific), using unique ID assigned in references/places/placeography.xml
-      ## For personal addresses, pubs, etc
+      ## For personal addresses, pubs, etc, using the first four letters of the nearest 'inhabited place' from the Getty Thesaurus' + 2 digits
+      ## So, Abel Heywood's address of 60 Oldham St, Manchester is recorded as 'Manc01' NOT Oldh60 or whatever.
   
   tgn ## Getty Thesaurus of Geographical names, for city/town/village identification, from http://getty.edu/research/tools/vocabularies/tgn
     
@@ -20,3 +21,6 @@ Places
 Groups/Organisations
 
   grp ## group (project specific), using unique ID assigned in references/groups/groupography.xml
+  
+
+Throughout the project, the additional digits in IDs are based on first occurrence during markup and have no further significance.
