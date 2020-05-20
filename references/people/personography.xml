@@ -31,7 +31,7 @@
            </prefixDef>
            <prefixDef ident="plc" 
               matchPattern="([a-z]+)" 
-              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/placeography.xml#$1">
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
            </prefixDef>
            <prefixDef ident="tgn" 
               matchPattern="([a-z]+)" 
@@ -39,7 +39,7 @@
            </prefixDef>
            <prefixDef ident="grp" 
               matchPattern="([a-z]+)" 
-              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/groupography.xml#$1"">
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
            </prefixDef>
         </listPrefixDef>
      </encodingDesc>
