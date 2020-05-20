@@ -47,7 +47,45 @@
     <text>
         <body>
             <listPlace>
-                <place xml:id="">
+                <place xml:id="Shef01">
+                    <idno type="tgn">7010692</idno>
+                    <placeName></placeName>
+                    <location type="geopolitical">
+                        <country>UK</country>
+                        <region>England</region>
+                        <settlement>Sheffield</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine>35 Bailey Street</addrLine>
+                            <addrLine>Sheffield</addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Oldh01">
+                    <idno type="plc"></idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Oldham Theatre</placeName>
+                    <location type="geopolitical">
+                        <country>UK</country>
+                        <region>England</region>
+                        <settlement>Oldham</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Manc01">
+                    <idno type="plc"></idno>
                     <idno type="tgn"></idno>
                     <placeName></placeName>
                     <location type="geopolitical">
@@ -57,8 +95,8 @@
                     </location>
                     <location type="address">
                         <address>
-                            <addrLine></addrLine>
-                            <addrLine></addrLine>
+                            <addrLine>60 Oldham Street</addrLine>
+                            <addrLine>Manchester</addrLine>
                         </address>
                     </location>
                     <location type="geo">

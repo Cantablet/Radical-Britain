@@ -29,31 +29,65 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <persName>
-                  <forename>John</forename>
-                  <forename></forename>
-                  <surname>Fellows</surname>
-               </persName>
-               <placeName>
-                  <country>USA</country>
-                  <region>New York</region>
-                  <settlement>New York</settlement>
-                  <idno></idno>
-               </placeName>
-               <date>18361130</date>
+               <person>
+                  <idno type="prsn">Fell01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">John</forename>
+                     <surname sort="1">Fellows</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn">7007567</idno>
+                  <placeName></placeName>
+                  <location type="geopolitical">
+                     <country>USA</country>
+                     <region>New York</region>
+                     <settlement>New York</settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
             </correspAction>
             <correspAction type="received">
-               <persName>
-                  <forename>Richard</forename>
-                  <forename></forename>
-                  <surname>Carlile</surname>
-               </persName>
-               <placeName>
-                  <country></country>
-                  <region></region>
-                  <settlement></settlement>
-                  <idno></idno>
-               </placeName>
+               <person>
+                  <idno type="prsn">Carl01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">Richard</forename>
+                     <surname sort="1">Carlile</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn"></idno>
+                  <placeName></placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
                <date></date>
             </correspAction>            
          </correspDesc>
@@ -61,13 +95,13 @@
   </teiHeader>
   <text>
       <body>
-         <p>Dear Sir, I received your letter of —— acknowledging the receipt of my work on the mysteries including Freemasonry — stating that you had not fully perused it and therefore had not made up your option in regard to the probability of the sale of a republication of it in Englan.d
-            the bearer of this resides in this city, and will soon return. i should like to hear farther from you on the subject by him.</p>
-         <p>we understand that you are lecturing on the holy scriptures, showing them to be mainly allegorical— i have <persName>Sir <forename>William</forename> <surname>Drummond</surname>'s <idno></idno> </persName> work on the subjects; and find it very plaussible [sic] in respect to many parts of this holy book. this fact being proved renders the bible null and void as to its inspiration.</p>
-         <p>i am now concerned in the editing of a liberal work, entitled the Beacon – of which i send you the numbers as far printed.—</p>
-            <p>the bearer is waiting —</p>
+         <p>Dear Sir, I received your letter of —— acknowledging the receipt of my work on the mysteries including Freemasonry — stating that you had not fully perused it and therefore had not made up your option in regard to the probability of the sale of a republication of it in England.</p>
+         <p>The bearer of this resides in this city, and will soon return. I should like to hear farther from you on the subject by him.</p>
+         <p>We understand that you are lecturing on the holy scriptures, showing them to be mainly allegorical— I have <persName>Sir William Drummond's</persName> work on the subjects; and find it very plaussible [sic] in respect to many parts of this holy book. This fact being proved renders the bible null and void as to its inspiration.</p>
+         <p>I am now concerned in the editing of a liberal work, entitled the Beacon – of which I send you the numbers as far printed.—</p>
+            <p>The bearer is waiting —</p>
             <p>yours sincerely</p>
-            <p>john fellows</p>
+            <p>John Fellows</p>
       </body>
   </text>
 </TEI>
