@@ -48,11 +48,26 @@
         <body>
             <listOrg>
                 <org xml:id="">
+                    <idno type="grp"></idno>
                     <orgName></orgName>
+                    <listPlace></listPlace>
                     <place>
-                      <idno type="tgn"></idno>  
-                      <placeName></placeName>
+                        <idno type="plc"></idno>
+                        <idno type="tgn"></idno>
+                        <placeName></placeName>
+                        <location></location>
+                        <country></country>
+                        <settlement></settlement>
+                        <address></address>
                     </place>
+                    <state type="subscribers" when="">
+                        <listPerson>
+                            <person>
+                                <idno type="prsn"></idno>
+                                <persName></persName>
+                            </person>
+                        </listPerson>
+                    </state>
                 </org>
             </listOrg>
         </body>
