@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno>mssRC 245</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <person>
+                  <idno type="prsn">Thom01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">Robert</forename>
+                     <surname sort="1">Thompson</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc">Newc01</idno>
+                  <idno type="tgn"></idno>
+                  <placeName>15 Brandling Place, Newcastle</placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine>15 Brandling Place</addrLine>
+                        <addrLine>Newcastle</addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date>1836-09-11</date>
+            </correspAction>
+            <correspAction type="received">
+               <person>
+                  <idno type="prsn">Turt01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">Thomas</forename>
+                     <surname sort="1">Turton</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc">Shef01</idno>
+                  <idno type="tgn"></idno>
+                  <placeName>35 Bailey Street, Sheffield</placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine>35 Bailey Street</addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Thomas,</p>
+         <p>I have at this moment received a ray of inspiration through a crack in my cranium (as Poet <persName ref="Mart01">Martin</persName> expresses it) which has screwed my courage up to the sticking point, and brought me to the determination of addressing you, which I do assure you is an Act of no little difficulty but no matter, for here goes, As I cannot extend to you the hand of Friendship, as I was wont to do during our very short acquaintance, It's[??] [Art?] and the exercise of my very poor intellectual faculties, will do for us that which distance and circumstances denies, I have therefore determined to continue that Friendship (on my part) by a communication of my Ideas to you through the expensive medium of his Majesty's Post Office God bless him, and with assistance of that divine inspiration of which a Natural Philosopher of <placeName ref="tgn:7012026">this place</placeName> is in possession of so large a quantity that he has almost absorbed the whole of the celestial fluid, Our Celestial Mechanic [[2]] and Material Agent (<persName ref="prsn:Morr01">Mr. Morrison</persName>), has concluded his lectures on Astronomy, the delivery of the last two lectures called forth some amusing discussions [.] a gentleman opposed the Celestial Mechanic, and endeavoured to dam up the tide of heresy, which was so keenly launched against the "occult and magical" Theory of the "immortal Newton," at which <placeName ref="tgn:7012294">Northumbria</placeName><corr>'</corr>s darling son Mr[W?] Martin NP [natural philosopher] and Poet, grew exceeding wrath, and crying out with a loud voice, read my Original lecture and you will not dare defend Newton, this expression of the Poet[']s feelings, caused much laughter and amusement, the Gentleman proceeded in his endeavours to rescue Newtonianism from the gigantic grasp of Morrison, but in vain, for he was thwarted in all his efforts by the NP who by this time was raised up to a pitch of the greatest enthusiasm his majestic form and white hat, again rose up in the centre of the room, again he elevated his melodious voice, and extending his arms, with the eloquence of a Roman poured forth, with flowery language his enchanting system of Astronomy with which you are no Stranger, leaving Astronomy allow me for a short time to sail on the troubled sea of Politics, <persName ref="prsn:Bell01">Mr Bell</persName>, late of the True[?] Sun has paid us a visit here, he lectured on the 5th at <placeName ref="tgn:1030684"><choice><corr>South</corr><sic>Soh</sic></choice> Shields</placeName> to a large auditory, and on the following evening in this Town, in the <placeName ref="plc:Newc02">Music Hall</placeName>, to at least 1500 Persons, and I think, that I hear him now denouncing that base and detestable faction [[3]] (the Whigs) his manly and Patriotic sentiments still thrill in my ears, still do I hear him pouring forth Anathemas against the enemies of the son[']s [sic] of labour and in particular the beastly Malthusian system of Political economy, (at which a few faint hisses were heard, from Whigs I suppose) but to hear him lash them was  admirable It was delightfull. Mr Bell sat down amidst the warm and I may say the most enthusiastic plaudits I ever heard, Mr Bell again rose and called upon the Whigs for their defence, come said he "as we are at it let us have a jolly cross examination", <persName ref="prsn:Fife01">Dr. Fife</persName>[?] being called upon by the meeting steps forth, and to my utter astonishment vindicated the character and Acts of the Whigs, Mr Bell <sic>replyed</sic>, and what a smash was there, how powerfully he overturned the arguments of the Doctor, and gained a most glorious and triumphant victory, I will not say more. But our Friend, Ham[damaged] desires me to Inform you that the proceedings of this meeting will be published on the 14th[?] Septr, and transmitted to you to supply the Spade in <placeName ref="tgn:7010692">Sheffield</placeName>, I have also the pleasing portrait of <persName ref="prsn:Detr01"><choice><sic>Rowd</sic><corr>Roland></corr></choice> Detrosier</persName>, he has the loan but for four days and in consequence has employed <persName ref="prsn:Pott01">Potts</persName> to copy from the same with the view of bringing out either a lithograph or copper plate engraving of that enlightened and truly <sic>nobly</sic> man, Hoping this reaches you in the possession of good health and pleasures desired from leading a virtuous life.</p>
+         <p>I remain with sincere respect</p>
+         <p>Robert Thompson</p>
+         <p>Please to remember the books you and I spoke <sic>off</sic> and which you noted down and <orig>expences</orig> incurred will be with greatest pleasure attended to.</p> 
+      </body>
+  </text>
+</TEI>

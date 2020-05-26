@@ -114,6 +114,40 @@
               </listRelation>  
               <note>RC 450 Carlile claims never to have heard of any Atkin, or Atkins</note>
            </person>
+           <person xml:id="Bell01">
+              <idno type="prsn">Bell01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Bell</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation> 
+              <note>Of the True Sun, see RC 245</note>
+           </person>
            <person xml:id="Bywa01">
               <idno type="prsn">Bywa01</idno>
               <idno type="isni"></idno>
@@ -274,6 +308,72 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Cobb01">
+              <idno type="prsn">Cobb01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">William</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Cobbett</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Detr01">
+              <idno type="prsn">Detr01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Roland</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Detrosier</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
            <person xml:id="Fell01">
               <idno type="prsn">Fell01</idno>
               <idno type="isni"></idno>
@@ -307,6 +407,39 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Fife01">
+              <idno type="prsn"></idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military">Dr</roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Fife</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
            <person xml:id="Harr01">
               <idno type="prsn">Harr01</idno>
               <idno type="isni"></idno>
@@ -318,6 +451,39 @@
                  <addName type="nick"></addName>
                  <addName type="epithet"></addName>
                  <surname sort="1">Harris</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Heth01">
+              <idno type="prsn">Heth01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Henry</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Hetherington</surname>
                  <genName full="abb"></genName> 
               </persName>
               <birth>
@@ -406,6 +572,106 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Mart01">
+              <idno type="prsn">Mart01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">William</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Martin</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>
+              <note>A poet referred to in RC 245</note>
+           </person>
+           <person xml:id="Mcke01">
+              <idno type="prsn">Mcke01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Alexander</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">McKerracher</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Morr01">
+              <idno type="prsn"></idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Thomas</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Morrison</surname>
+                 <genName full="abb">Sr</genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
            <person xml:id="Ocon01">
               <idno type="prsn">Ocon01</idno>
               <idno type="isni"></idno>
@@ -438,6 +704,40 @@
               <listRelation>
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
+           </person>
+           <person xml:id="Pott01">
+              <idno type="prsn">Pott01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1"></surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>A Newcastle etcher, see RC245</note>
            </person>
            <person xml:id="Plac01">
               <idno type="prsn">Plac01</idno>

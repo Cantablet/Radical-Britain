@@ -123,6 +123,25 @@
                         <geo></geo>
                     </location>
                 </place>
+                <place xml:id="Lond04">
+                    <idno type="plc">Lond04</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>126 Strand</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
                 <place xml:id="Manc01">
                     <idno type="plc"></idno>
                     <idno type="tgn"></idno>
@@ -136,6 +155,44 @@
                         <address>
                             <addrLine>60 Oldham Street</addrLine>
                             <addrLine>Manchester</addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Newc01">
+                    <idno type="plc">Newc01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>15 Brandling Place, Newcastle</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Newc02">
+                    <idno type="plc">Newc02</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Newcastle Music Hall</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
                         </address>
                     </location>
                     <location type="geo">
@@ -162,6 +219,7 @@
                     </location>
                 </place>
                 <place xml:id="Shef01">
+                    <idno type="plc">Shef01</idno>
                     <idno type="tgn">7010692</idno>
                     <placeName>35 Bailey Street</placeName>
                     <location type="geopolitical">

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection></collection>
+                  <idno>mssRC 147</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <person>
+                  <idno type="prsn">Mcke01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename full="abb" sort="2">Alex</forename>
+                     <surname sort="1">McKerracher</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn">7009546</idno>
+                  <placeName>Edin[burgh]</placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date>1836-08-13</date>
+            </correspAction>
+            <correspAction type="received">
+               <person>
+                  <idno type="prsn">Heth01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">Henry</forename>
+                     <surname sort="1">Heth<supplied reason="omitted-in-original"></supplied>rington</surname>
+                     <addName>bookseller and publisher</addName>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc">Lond04</idno>
+                  <idno type="tgn"></idno>
+                  <placeName></placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear sir</p>
+         <p>I feel great pleasure in having this opportunity of introducing to you my respected friend <persName ref="prsn:Morr01">Mr. Thos. Morrison Sen[io]r</persName> of <placeName ref="tgn:7009554">Dunfermline</placeName> to whom you, the public &amp; myself are much indebted for the exertion he has made in obtaining for the "Dispatch" an extensive circulation in Dunfermline &amp; neighbourhood;</p>
+         <p>He visits <placeName ref="tgn:7011781">London</placeName> with the intention of delivering a course of lectures on astronomy &amp; also on Politics. the former in opposition to the Newtonian System &amp; the latter in accordance with the principles of <persName ref="Cobb01">Cobbett</persName>: he has delivered the same course to crowded audiences [[2]] in <placeName ref="tgn:7009546">Edin.</placeName> &amp; <placeName ref="tgn:7017283">Glasgow</placeName>, with great "eclat".</p>
+         <p>I sincerely wish that he may find the same response in London.</p>
+         <p>Whatever you may do in directing public attention to Mr. Morrison I shall consider as a favour done myself.</p>
+         <p>I am | dear sir</p> 
+         <p>yours &amp;c &amp;c</p>
+         <p>Alexr McKerracher</p>
+      </body>
+  </text>
+</TEI>
