@@ -256,6 +256,25 @@
                         <geo></geo>
                     </location>
                 </place>
+                <place xml:id="Sund01">
+                    <idno type="plc">Sund01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Sunderland Long Room Arcade</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
             </listPlace>
         </body>
     </text>

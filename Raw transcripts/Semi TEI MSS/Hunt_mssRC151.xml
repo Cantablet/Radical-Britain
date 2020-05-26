@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region></region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 151</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <person>
+                  <idno type="prsn">Marl01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">John</forename>
+                     <surname sort="1">Marley</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn"></idno>
+                  <placeName>Walworth Street</placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region>Durham</region>
+                     <settlement>Bishop Wearmouth</settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date>1836-10-18</date>
+            </correspAction>
+            <correspAction type="received">
+               <person>
+                  <idno type="prsn">Morr01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2">Thomas</forename>
+                     <surname sort="1">Morrison</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn"></idno>
+                  <placeName></placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Sir,</p>
+         <p>Herewith I send you a Requisition which a few of your friends here have got up for you. It is but a simple and humble production but I believe it to be truly sincere and on that account I am sure you will esteem it — you will <sic>purceive</sic> it is not intended for publication. Indeed I am well aware that many who have signed it [w]ould feel hurt by their names appearing, in any shape, in  a public way. But at <supplied reason="omitted-in-text">the</supplied> same time the Requisition itself might be published (without the names) in any of your hand-bills if thought necessary.— I have seen <persName ref="prsn:Alla01">Mr Allason</persName> about the <placeName ref="plc:Sund01">Long Room Arcade</placeName>. He will accommodate you upon the same term as before. I pushed him sore for an abatement but could not succeed. He promises however, in case of a failure to share the loss with you. — I have made an apology to <persName ref="prsn:Houg01">Mr. Houghton</persName> for you with which he was quite satisfied and bids me inform you that he will be very glad to see you when you come here again. I hope you keep clear of cold and enjoy good health. My <persName ref="prsn:Marl02">wife</persName> and <persName ref="prsn:Marl03">son</persName> desire to be kindly remembered to you ; as also do <persName ref="prsn:Ward01">Mr Wardropper</persName>[?] and many others. Hoping to see you soon, I remain,</p>
+         <p>Dear sir,</p> <p>yours truly</p> 
+         <p>J Marley</p>
+         
+         <p>[[2]] To Mr Thos Morrison Senr - Dunfermline</p>
+         <p><placeName ref="tgn:7017245">Sunderland</placeName> Oct 10th 1836</p>
+         
+         <p>We the undersigned having been highly gratified by the able manner in which Mr Morrison delivered his course of Lectures on the Morrisonian system of Astronomy: and being desirous that he should deliver a course of Lectures on Political oeconomy in this town, do respectfully invite him to do so at his earliest convenience.</p>
+
+         <persName>John Toplin</persName>			
+         <persName>William Chalk</persName>
+         <persName>A Gordon</persName>		
+         <persName>John Unwin</persName>
+         <persName>J[?] Chipchase[?]</persName>		
+         <persName ref="prsn:Alla01">John Allason</persName>
+         <persName ref="prsn:Houg01">James Houghton</persName>		
+         <persName>Rob[er]t Dennison</persName>
+         <persName ref="prsn:Bell01">John Bell</persName>				
+         <persName>Ja[me]s Robinson</persName>
+         <persName>Wm[?] Dobinson[?]</persName>		
+         <persName>Geo[rge] Mitchell</persName>
+         <persName>John Fithan[?]</persName>
+         <persName>William Ramton</persName>
+         [[3]]
+         <persName>Rob[er]t Turnbull</persName>		
+         <persName>John Crowe[s?]</persName>
+         <persName>Tho[ma]s Recey[?]	</persName>	
+         <persName>Wm Braithwaite</persName>
+         <persName>Rob[er]t Mitchell</persName>		
+         <persName>John Hopper</persName>
+         <persName>Joseph Collingwood</persName>		
+         <persName>Paul [Wardropper?]</persName>
+         <persName>John Henderson</persName>		
+         <persName>Peter Carin[?]</persName>
+         <persName>John Clarke[?]</persName>			
+         <persName>John Grundy</persName>
+         <persName>Wm [??]</persName>
+         <persName ref="prsn:Marl01">John Marley</persName>
+      </body>
+  </text>
+</TEI>
