@@ -14,13 +14,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country></country>
-                  <region></region>
+                  <country>USA</country>
+                  <region>California</region>
                   <settlement></settlement>
-                  <institution></institution>
+                  <institution>Huntington Library</institution>
                   <repository></repository>
-                  <collection></collection>
-                  <idno></idno>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 449</idno>
                   <msName></msName>
                </msIdentifier>
             </msDesc>
@@ -58,16 +58,16 @@
          <correspDesc>
             <correspAction type="sent">
                <person>
-                  <idno type="prsn">Carl03</idno>
+                  <idno type="prsn">Carl01</idno>
                   <idno type="isni"></idno>
                   <idno type="viaf"></idno>
                   <persName>
-                     <forename full="init" sort="2">A.</forename>
+                     <forename full="init" sort="2">R.</forename>
                      <surname sort="1">Carlile</surname>
                   </persName> 
                </person>
                <place>
-                  <idno type="plc">Lond01</idno>
+                  <idno type="plc"></idno>
                   <idno type="tgn">7011781</idno>
                   <placeName>London</placeName>
                   <location type="geopolitical">
@@ -77,7 +77,7 @@
                   </location>
                   <location type="address">
                      <address>
-                        <addrLine><supplied reason="omitted-in-original">2 Water-lane</supplied></addrLine>
+                        <addrLine></addrLine>
                         <addrLine></addrLine>
                      </address>
                   </location>
@@ -85,23 +85,22 @@
                      <geo></geo>
                   </location>
                </place>
-               <date>1836-05-02</date>
+               <date>1836-05-05</date>
             </correspAction>
             <correspAction type="received">
                <person>
-                  <idno type="prsn">Turt02</idno>
+                  <idno type="prsn">Turt01</idno>
                   <idno type="isni"></idno>
                   <idno type="viaf"></idno>
                   <persName>
-                     <forename full="abb" sort="2">Thos</forename>
+                     <forename full="init" sort="2">T.</forename>
                      <surname sort="1">Turton</surname>
-                     <genName full="abb">Jr</genName> 
                   </persName> 
                </person>
                <place>
-                  <idno type="plc"></idno>
+                  <idno type="plc">Shef01</idno>
                   <idno type="tgn"></idno>
-                  <placeName></placeName>
+                  <placeName>30 Bailey Street Sheffield</placeName>
                   <location type="geopolitical">
                      <country></country>
                      <region></region>
@@ -109,7 +108,7 @@
                   </location>
                   <location type="address">
                      <address>
-                        <addrLine></addrLine>
+                        <addrLine>30 Bailey Street</addrLine>
                         <addrLine></addrLine>
                      </address>
                   </location>
@@ -124,15 +123,20 @@
   </teiHeader>
   <text>
       <body>
-         <p>My dear Mr Thos Thurton Junr/</p>
-         <p>Most things now-a-days have a beginning you will allow of course — and I find that unless I begin a letter to you, now that I have ten minutes spare time the odds are 10 to 1 against my finishing it in time for the parcel this week — so here goes —</p>
-         <p>I am now snugly settled in the <placeName ref="plc:Lond01">shop</placeName> you have seen advertised - and I trust in a fair way to work my own salvation in this miserable world — you complain that I have not let you know what I have been about lately — I must say If you had shewn me an example and told me what you are at - I should have seen the force [[2]] of your argument much clearer — however I'll tell you a little of my proceedings lately[.] First I took house - low rent - good situation - capital show - and all that sort of thing thought I had made a hit - but no - it was not to be so I suppose - for I was glad to get out of it after 5 months trial with a loss of £30 — after that I took a trip into <placeName ref="tgn:7008171">Yorkshire</placeName> and <placeName ref="tgn:7008154">Lancashire</placeName> selling and buying pictures this was more profitable than the last spec. but still it would not do for me — after that I did nothing for a few weeks, then I conducted my Brother's business during his absence from town - and now - you know what I am at — — if you are not satisfied with the above full and particular account I shall say[?] you have no bowels[.] [[3]] </p>
-         <p>You will perceive where I broke off on Monday - the 2nd and I now recommence — at the last minute — I must write for my life or you will have to wait another week for this scrawl[.]</p>
-         <p>I ought to tell you why I did not come to <placeName ref="tgn:7010692">Sheffield</placeName> in my tour — the fact is I did not think it a good place for the business I was on — and I sacrificed the the [sic] pleasure I should have experienced in seeing you &amp; other friends — to that Grand object money-making —</p>
-         <p>I shall take an early opportunity of again writing to you in the mean time let me hear from you - and believe me to be - in the greatest haste -</p>
-         <p>Yours ever</p>
-         <p>A Carlile</p>
+         <p>Dear sir,</p>
+         <p>I was in <persName ref="prsn:Carl03">Alfred's</persName> <placeName ref="plc:Lond01">shop</placeName> to receive the Razors and Penknives and thank you. The place I held temporarily in <placeName ref="plc:Lond02">Ship Yard</placeName> last year did not suit my health. In november I became frightfully ill and was driven to a cottage in the country. It was a question of atmosphere and lungs and in the country I soon rallied. I stick and shall stick to the cottage in future. It is at <placeName ref="plc:Enfi01">Enfield High Way</placeName>, about ten miles on the <placeName ref="tgn:7010874">Cambridge</placeName> Road. rent low, garden &amp;c, very neat.</p>
+         <p>I am not[?] ready for activity of any kind, writing, lecturing or any thing. I do not mean to be idle nor to die yet ; but to follow out the character I have formed. [[2]]</p>
+         <p>I have committed the last of my follies in adding a daughter to my family. I am now about to end my days in wisdom.</p>
+         <p><persName ref="prsn:Shar01">Mrs. C.</persName> is in good health. She does not like the country so well as <placeName ref="tgn:7011781">London</placeName>. Her compliments to you, <persName ref="prsn:Turt03">Mrs Turton</persName> and family.</p>
+         <p>I shall start another paper but think now of waiting until January, to let the scramble be over.</p>
+         <p>I am quite ready for a call into the country, if I can pay <orig>expences</orig> any where. I had rather not go where I cannot pay <orig>expences</orig>.</p>
+         <p><persName ref="prsn:Harr01">Joseph Harris</persName> is doing well in <placeName ref="tgn:7012026"></placeName>Newcastle. <persName ref="prsn:Carl03">Alfred</persName> is well situated at a moderate [[3]] rent for <placeName ref="plc:Lond01">Fleet Street</placeName>. We shall do business on a new tact[?], advertise much and have no credits.</p>
+         <p>Many of my friends cant follow mew into a pure mythological description of Christianity. I hope you can, as I am sure it is the best point in infidelity yet reached.
+            <p>What are you doing with <persName ref="prsn:Turt02">Master T. T.</persName>? Is he to be a Lawyer, Doctor or Parson?
+         <p>If you come to London, you must spend a day or two with me in the country.
+         <p>I have quite resolved on one thing, not to identify myself with the class of men now self styled Radicals. there is no good to be done on that ground —
+         <p>respectfully</p>
+         <p>R. Carlile</p>
       </body>
-     <note>The shop being referred to here is likely to be No 2 Water-lane, see e.g. The Fly 11 May 1839, p 76</note>
   </text>
 </TEI>

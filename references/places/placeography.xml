@@ -122,6 +122,44 @@
                         <geo></geo>
                     </location>
                 </place>
+                <place xml:id="Lond02">
+                    <idno type="plc">Lond02</idno>
+                    <idno type="tgn">7011781</idno>
+                    <placeName>Ship Yard</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Enfi01">
+                    <idno type="plc">Enfi01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Enfield High Way</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
             </listPlace>
         </body>
     </text>

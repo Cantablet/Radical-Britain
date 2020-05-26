@@ -372,6 +372,136 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Turt02">
+              <idno type="prsn">Turt02</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Thomas</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Turton</surname>
+                 <genName full="abb">Jr</genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Shar01">
+              <idno type="prsn">Shar01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="3">Eliza</forename>
+                 <surname sort="1">Sharples</surname>
+                 <surname type="married" sort="2">Carlile</surname>
+                 <addName type="alias">Isis</addName>
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex>F</sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Turt03">
+              <idno type="prsn">Turt03</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Turton</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex>F</sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Harr01">
+              <idno type="prsn">Harr01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Joseph</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Harris</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
         </listPerson>
      </body>
   </text>
