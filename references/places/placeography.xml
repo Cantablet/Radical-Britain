@@ -103,6 +103,25 @@
                         <geo></geo>
                     </location>
                 </place>
+                <place xml:id="Lond01">
+                    <idno type="plc">Lond01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>No. 2 Water Lane</placeName>
+                    <location type="geopolitical">
+                        <country>UK</country>
+                        <region></region>
+                        <settlement>City of London</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine>2 Water Lane</addrLine>
+                            <addrLine>Fleet Street</addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
             </listPlace>
         </body>
     </text>
