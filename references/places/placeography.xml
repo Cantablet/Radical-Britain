@@ -49,7 +49,7 @@
             <listPlace>
                 <place xml:id="Shef01">
                     <idno type="tgn">7010692</idno>
-                    <placeName></placeName>
+                    <placeName>35 Bailey Street</placeName>
                     <location type="geopolitical">
                         <country>UK</country>
                         <region>England</region>
@@ -141,10 +141,48 @@
                         <geo></geo>
                     </location>
                 </place>
+                <place xml:id="Lond03">
+                    <idno type="plc">Lond03</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Giltspur Street Compter</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
                 <place xml:id="Enfi01">
                     <idno type="plc">Enfi01</idno>
                     <idno type="tgn"></idno>
                     <placeName>Enfield High Way</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Shef02">
+                    <idno type="plc">Shef02</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Sheffield Theatre</placeName>
                     <location type="geopolitical">
                         <country></country>
                         <region></region>

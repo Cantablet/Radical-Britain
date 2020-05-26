@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 450</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <person>
+                  <idno type="prsn">Carl01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename full="init" sort="2">R.</forename>
+                     <surname sort="1">Carlile</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn">7011781</idno>
+                  <placeName>London</placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date>1836-06-02</date>
+            </correspAction>
+            <correspAction type="received">
+               <person>
+                  <idno type="prsn">Turt01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2"><supplied reason="omitted-in-original">Thomas</supplied></forename>
+                     <surname sort="1"><supplied reason="omitted-in-original">Turton</supplied></surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn">7010692</idno>
+                  <placeName><supplied reason="omitted-in-original">Sheffield</supplied></placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear sir,</p>
+         <p>In answer to yours of May 31, I have to say, that this new story from <persName ref="prsn:Alli01">Allin</persName>[?] and <persName ref="prsn:Bywa01">Bywater</persName> is a pure invention to the best of my recollection. Had two such questions been put to me, I should have so answered. But nothing of the kind happened at <placeName ref="tgn:7010477">Manchester</placeName>. In the first place, I never heard of an automaton figure that could use a pen for writing. In the second, I know no gentleman of Manchester of the name of <persName ref="prsn:Atki01">Atkin</persName> or Atkins. In the third, when I was at Manchester, I had not seen <persName ref="prsn:Plac01">Mr Place</persName> for two years, had only seen him once during my imprisonment in the <placeName ref="plc:Lond03">Compter</placeName>, did not then contemplate going out of town, had no conversation on the subject with him and never used his name in any public lecture or discussion on the subject of theology. [[2]] I have not consulted him on any subject these five years.</p>
+         <p>The <placeName ref="tgn:7010443">Bradford</placeName> People want me down there. If the <placeName ref="plc:Shef02">Sheffield Theatre</placeName> could be had I would come to <placeName ref="tgn:7010692"></placeName>Sheffield ; or if any other place of respectable standing ; I would come. I want a shy at Allin ; and remember I shall take a much higher tone than I took before. I shall publicly declare that these men Allin &amp; Co. are wholly ignorant of the Christian Revelation, and challenge them on ignorance of their own subject.</p>
+         <p>See what can be done. I am in excellent health now and reap and ready for the movement —</p>
+         <p>Respectfully</p>
+         <p>R Carlile</p>
+         
+      </body>
+  </text>
+</TEI>
