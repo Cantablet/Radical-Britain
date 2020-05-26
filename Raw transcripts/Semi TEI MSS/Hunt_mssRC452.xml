@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 452</idno>
+                  <msName></msName>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <person>
+                  <idno type="prsn">Carl01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename full="init" sort="2">R.</forename>
+                     <surname sort="1">Carlile</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc"></idno>
+                  <idno type="tgn">7010695</idno>
+                  <placeName>Barnsley</placeName>
+                  <location type="geopolitical">
+                     <country>UK</country>
+                     <region></region>
+                     <settlement>Barnsley</settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine></addrLine>
+                        <addrLine></addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
+            </correspAction>
+            <correspAction type="received">
+               <person>
+                  <idno type="prsn">Turt01</idno>
+                  <idno type="isni"></idno>
+                  <idno type="viaf"></idno>
+                  <persName>
+                     <forename sort="2"></forename>
+                     <surname sort="1">Turton</surname>
+                  </persName> 
+               </person>
+               <place>
+                  <idno type="plc">Shef01</idno>
+                  <idno type="tgn"></idno>
+                  <placeName>35 Bailey Street</placeName>
+                  <location type="geopolitical">
+                     <country></country>
+                     <region></region>
+                     <settlement></settlement>
+                  </location>
+                  <location type="address">
+                     <address>
+                        <addrLine>35 Bailey Street</addrLine>
+                        <addrLine>Sheffield</addrLine>
+                     </address>
+                  </location>
+                  <location type="geo">
+                     <geo></geo>
+                  </location>
+               </place>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Sir,</p>
+         <p>You will have been told that I travelled to <placeName ref="tgn:7010695">Barnsley</placeName> inside the coach with <persName ref="prsn:Bywa01">Alfred Bywater</persName> and i now tell you that I held no conversation with him throughout the road: it was past eight o clock when we reached Barnsley and the Jurists[?] were in a quandary at Alfred's dolory. He was hurried into the theatre and began instantly and I soon saw there was a great deal more thought of my coming than his. If I could have kept my secret, there would not have been a dozen[?] shillings in the theatre. When I entered, it was not a quarter full in the Pit and only about half a dozen in the Boxes, while the Gallery I was told was packed free. Reports were sent through the town that I had arrived and before the Lecture was over there was a circle round the boxes and the Pit nearly full. It is impossible I can gain honour by discussing an important subject with so ignorant a man, who will not see any thing pressing upon him. He preached his one universal sermon of matter and motion, mind without brain, and his beautiful anatomical structure, his liver, spleen, duodenum, lungs and brain, and asked how a sensation could be made on a particle of the body without a distinct sensation being made at the same time upon every particle of the body? [[2]] Boasted of asking me questions which I could not answer ; to which I answered in the old adage, that a fool might ask questions which a wise man could not answer. This did not satisfy the Methodists. Their position was, if Bywater could ask me a question, which I could not answer, and though he could not answer himself he puzzled me and was the better man. His lecture, though nonsensical, was delivered with energy : his poetical quotations well committed to memory and made a first rate Methodist Sermon. Crybbace[?} came as soon as he heard I was there; but did not interfere. I rested strongly on one point, thinking to make the most of the evening, that mind, as witnessed in all modes and manners of education, as exemplified under all the states of the human being, as found absent in the New Hollanders hone discovered in the last century, but was made present as soon as Europeans gave it them, as found absent in children born deaf, until an art discovered the means of teaching by signs instead of sounds, that it was purely an affair of art acting upon the organization. He asked me for a definition of its origins[?] and when I told him by the authority of <persName ref="prsn:Lock01">Locke</persName> and others that it was purely adduced from animal sensation and [[3]] perception thereon, he tried to laugh and asked what was a preception? did any one ever hear of a preception? and when he was corrected, he asked, "well, a perception, did any one ever hear of a perception arising from sensation?" however I made the most of the evening and they report seven shilling for the Institute beyond <orig>expences</orig>, for which they may thank me!</p>
+         <p>I shall preach in the theatre three times to  morrow and go on to <placeName ref="tgn:7010442">Leeds</placeName> on monday. <persName ref="prsn:Ocon01">Feargus O Connor</persName> is passing through here to day for Leeds. As it will be tuesday or wednesday before I can direct <persName ref="prsn:Carl02">J.P.C.'s</persName> motion, I have taken the liberty to send back my soiled linen as necessary to be washed before I can settle anywhere again. I am, you see, like all the rest of the world, imposing upon good nature ; but I live in hope of [???]ning exchange of favours with you. <persName ref="prsn:Carl03">Alfred</persName> condemned his brother's pamphlet and said that he had never represented himself to any one as having defeated me. Perhaps some of the <placeName ref="tgn:7010692">Sheffield</placeName> folks can refresh his memory. Love to all friends and your family.</p>
+         <p>R. Carlile</p>
+         
+         <p>[[4]] I will write you again on monday</p>
+      </body>
+  </text>
+</TEI>

@@ -240,6 +240,105 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Lock01">
+              <idno type="prsn">Lock01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">John</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Locke</surname>
+                 <genName full="abb"></genName>. 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Bywa01">
+              <idno type="prsn">Bywa01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Alfred</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Bywater</surname>
+                 <genName full="abb"></genName>. 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Ocon01">
+              <idno type="prsn">Ocon01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Feargus</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">O' Connor</surname>
+                 <genName full="abb"></genName>. 
+              </persName>
+              <birth>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </birth>
+              <death>
+                 <date when=""></date>
+                 <placeName></placeName>
+                 <idno type="tgn"></idno>
+              </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
         </listPerson>
      </body>
   </text>
