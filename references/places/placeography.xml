@@ -47,6 +47,26 @@
     <text>
         <body>
             <listPlace>
+                <place xml:id="Bish01">
+                    <idno type="plc">Bish01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Bishop Wearmouth</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>Robert Thompson's home, see Rc 151</note>
+                </place>
                 <place xml:id="Enfi01">
                     <idno type="plc">Enfi01</idno>
                     <idno type="tgn"></idno>
@@ -160,6 +180,26 @@
                     <location type="geo">
                         <geo></geo>
                     </location>
+                </place>
+                <place xml:id="Manc02">
+                    <idno type="plc">Manc02</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>44 Booth Street, Oxford Road</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement>Manchester</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>William Campion's home in 1837, see RC 460</note>
                 </place>
                 <place xml:id="Newc01">
                     <idno type="plc">Newc01</idno>

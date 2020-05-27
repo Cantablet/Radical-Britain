@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement/>
+                  <institution>Huntington Library</institution>
+                  <repository/>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 460</idno>
+                  <msName/>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author/>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" matchPattern=" ([a-z]+) " replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" matchPattern=" ([a-z]+) " replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" matchPattern=" ([a-z]+) " replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" matchPattern=" ([a-z]+) " replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" matchPattern=" ([a-z]+) " replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" matchPattern=" ([a-z]+) " replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName/>
+               <placeName ref="tgn:7010477">Manchester</placeName>
+               <date when="1837-12-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName/>
+               <placeName ref="tgn:7010692"><supplied>Sheffield</supplied></placeName>
+               <date/>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><choice><abbr>Dr</abbr><expan>Dear</expan></choice> Sir,</p>
+         <p>I have a commission for you. My valuable friends in <placeName ref="tgn:7008132">Gloucestershire</placeName><note>The Cheltenham ladies</note> write me thus:— "A
+            Philanthropist of one genus puts me in mind of one of another order, <persName ref="prsn:Robe01">Samuel Roberts</persName>, of <placeName ref="tgn:7010692">Sheffield</placeName> I believe, his printer is <persName ref="Blac01">J. Blackwell</persName>, <placeName ref="tgn:7010692">Sheffield</placeName>.— This Good Man is truly
+            interested in ameliorating the hard lot of Chimney Sweeping Boys and also of Gipsies.— I
+            have tried ineffectually to get his publications which I particularly wanted to lend to
+            a young clergyman whose feelings of humanity appeared to be sincerely developing towards
+            the former class of unfortunate ill used begins, and I would fair have fostered this
+            valuable opening in his mind by lending him S. Roberts' work on the subject containing
+            prose and poetry; but the Bookseller in London said it was out of print."</p>
+         <p>If you can pick me up this work in <placeName ref="tgn:7010692">Sheffield</placeName>, pray do so, and if the price be not large,
+            a dozen copies will be preferable to one. My friends are very lavish in their gift of
+            useful books. And as to supplying me with money, they have made me rich! Their
+            remittances already amount to two hundred pounds. I shall be sending you a parcel [[2]]
+            before I got to <placeName ref="tgn:7011781">London</placeName> and will remit the price of the Books and any thing you will say
+            is due to yourself or <persName ref="prsn:Otle01">Mr Otley</persName>. <persName ref="prsn:Shar01">Mrs C.</persName> and I are to go and visit these ladies before I
+            return to Lancashire.— <persName ref="prsn:Carl02">Tom Paine</persName> is here and will remain. If you will let <persName ref="prsn:Turt02">T.T. <choice><abbr>Junr</abbr><expan>Junior</expan></choice></persName>
+            come and spend his Christmas with him ; we can accommodate him well in my absence and my
+            Chapel is already engaged for the Christmas Bells. I shall want him as a preacher by and
+            bye : as you will see by an advertisement I am to send you. We are staying with <persName ref="prsn:Camp01">Mr Campion</persName>, <placeName ref="plc:Manc02">44 Booth Street, Oxford Road</placeName>, my old shopman.</p>
+         <p>I sent you a parcel lately with some tracts of mine and some <persName ref="prsn:Shep01"></persName>Shepherd. I can send more
+            Shepherd if you can make a pleasure in circulating them.</p>
+         <p>I shall leave <placeName ref="tgn:7010477">Manchester</placeName> for three weeks about the 20th Inst and wish to hear from you
+            before that time. this is my 47th birthday. With care in the Winter, I think I shall
+            wear a dozen years longer: but I must take care. <placeName ref="tgn:7008171">Yorkshire</placeName> air suits me better than
+            <placeName ref="tgn:7010477">Manchester</placeName>.</p>
+         <p>[3]] <persName ref="prsn:Shar01">Mrs C</persName> will return with me and lecture here and about ; and a trial will be made
+            whether or not she has taken for a public life. I have never heard her lecture but once,
+            that was to a small audience ; therefore I am no judge: but I mark that she has no study
+            in philosophical matters; and on that I think much depends. I shall help on that head as
+            I did in the Isis; but the feeling and originality is superior to the mechanical
+            delivery of sentiment.</p> 
+         <p><persName ref="prsn:Carl02">Tom Paine</persName> is likely to start here as a Bookseller. I must do as I did in 1820, run a
+            new agency through the country: for I shall be bringing out a new class of books. There
+            is no liken between me and the Radicals.</p>
+         <p>I am putting the Socialists to their tether on the Monday evening. It is astonishing how
+            ill men bear discussion. These Socialists are as offensive and dishonest as any
+            religious sect when brought to discussion. I find the same outcry against the Penny
+            Admission here as there was about a shilling and sixpence at <placeName ref="tgn:7010692">Sheffield</placeName>.</p> 
+         <p>Love to all your family. </p>
+         <p>Respectfully richard carlile</p>
+         
+         <p>[[4]] PS I kept my letter open until <persName ref="prsn:Carl02">Tom </persName> returned from the Town, thinking that by
+            possibility, I might hear from you. Sure enough I have. The Box is at <persName ref="prsn:Heyw01">Mr Heywood's</persName> and I
+            dare say all is right.</p> 
+         <p>As soon as my discussion with <persName ref="prsn:Gree01">Green</persName> is ready, you shall have a parcel back.</p>
+         <p>I fancied I saw how things were going at <placeName ref="tgn:7010692">Sheffield</placeName>. I am not surprised at it. Frivolity
+            seems more suited to the present state of the human mind than any sound, serious and
+            permanent principle. notwithstanding, I feel myself right enough for the future: and
+            rejoice in the course I have taken.</p> 
+      </body>
+  </text>
+</TEI>
