@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 448</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010477">Manchester</placeName>
+               <date when="1838-03-06"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>My Dear Friend,</p> 
+         <p>Yours of the 4th reached me yesterday morning, and I have an hour this evening to answer it. No physician could have imagined <persName ref="prsn:Turt02">Thomas'</persName> Disease, unless there were symptoms of dropsy in the skin. It seems to have been a <orig>fungous</orig> growth that interrupted the regular action of the thorax, stomach and bowels. It ought to be made public. I have often wished that either of my boys should have been like him. All I can say to <persName ref="prsn:Carl02">T.P.C.</persName> is unavailing to get him to play the least attention to any thing that can form mind in him and I do say some very strong things to him as to his future prospects depending on the present formation of mind. It is all lost upon him. Silly talk about theatres and trumpery girls that are to be amused with it fill up his time ; while every thing of my business he will evade if he can. I have no hope of doing him any good or getting any good from him by keeping him about me, and the sooner he is thrown upon his own resources the better ; be the consequences what they may. He is no credit to me. I begin to feel that there can never be any advantageous union between me and any portion of that first family. I can see no other feeling in them than the aim to get from me what they can without regard to doing themselves or me any good. [[2]] In this they have been trained by their <persName ref="prsn:Carl04">mother</persName> from their infancy and that training remains on them. <persName ref="prsn:Carl03">Alfred</persName> is the best of them, but he has exhibited too much of that feeling. The whole family has health with me as if they had a secret interest to provide for distinct from mine: and I must meet them accordingly, for their welfare as well as mine.</p>
+         <p>Good Sense is not out of print. <persName ref="Heyw01">Mr Heywood</persName> has them on his catalogue in Vols at 2/-. The case is, I cannot trust them in <placeName ref="tgn:7011781">London</placeName> with any hope of seeing the money for them, and it is not worth my while to pay rent for a shop and shopman. <persName ref="prsn:Harr01">Joseph Harris</persName> is in the neighbourhood of his <persName ref="prsn:Harr02">father</persName> pining[?] over his shoemaking business. I should like to help him ; but I do not see how it is to be done with such a bargain as he has in a wife. It was Socialism at <placeName ref="tgn:7018934">Westminster</placeName> that spoiled <persName ref="prsn:Harr01">Joseph</persName>. The same thing corrupted the character of <persName ref="prsn:Detr01">Detrosier</persName> and brought him to premature death. I can tell a curious tale on that head.</p>
+         <p>You can have a single volume of the Pulpit to match the one you have. The Diegesis and Volney's Researches I have not overlooked. I desired <persName ref="prsn:Carl03">Alfred</persName> to send you the former. Must have nothing for the Tracts. I have sent you but[?] a Razor, Penknife and Scissors. I am not so short of money as I have been. I have published one small tract, anonymously, about National [Rational?] Education Bible Reading, which you have not seen yet – I made [[3]] a[??}sions to <persName ref="prsn:Gree01">Green</persName> to lead him out of the dull historical detail to the Epistles of Paul. I have written to my friend <persName ref="prsn:Gree02">Greeves[?]</persName> of <placeName ref="tgn:7012005">Norwich</placeName> to arrange for another discussion in April.— I am engaged on the wednesday evenings at <persName ref="prsn:Bear01">Beard's</persName> <placeName ref="plc:Salf01">Chapel</placeName> in <placeName ref="tgn:7010478">Salford</placeName> about Trinity and Unity and am exciting great interest in the ten minutes allowed me among a new audience. <persName ref="prsn:Bear01">Beard</persName> is very shy of me. One old gent, half and half, has put out a tract frightening the Unities by putting their doctrines to the extreme of unchaste virginity and bastard saviour! I find it is suppressed today at their request. I hope to lead this discussion to something important: having, in spite of tricks to precent me, spoken three evenings.</p>
+         <p>Though the Socialists are very rancorous and insolent, I make them come again. <persName ref="prsn:Owen01">Owen</persName> may be a Philanthropist; but he is no practical Philosopher. I follow them up for amusement as well as utility ; though they say nothing about it in their paper. I have had four nights with them at <placeName ref="tgn:7010560">Stockport</placeName> and am to have a fifth: a whole week at <placeName ref="tgn:7010552">Oldham</placeName> besides several nights in <placeName ref="tgn:7010477">Manchester</placeName>. They are afraid to come near me in <placeName ref="tgn:7010477">Manchester</placeName> and this they call beating me. If their principles were sound they ought to thank me for discussing them.</p>
+         <p><persName ref="prsn:Owen01">Owen</persName>'s great thunder is in mixing human nature and human art, carrying the law of the first, necessity through the latter and inferring no free will and consequently no responsibility. I stand by the New Testament that makes <persName ref="prsn:Chri01">Jesus Christ</persName>, the principle of mind, incarnate human, the law of liberty, free will and moral responsibility. I should like [[4]] you to hear my discussions at <persName ref="prsn:Bear01">Beard's</persName>. I beat them all in reverence seriousness and solemnity ; without any sacrifice of old materialist principles: and command great attention by the force of my explanations. I can safely boast of being the first theologian of the day, having left <persName ref="prsn:Tayl01">Taylor</persName> behind: and with that I may say the philosopher.</p>
+         <p><persName ref="prsn:Ling01">Lingard</persName> was to have sent me and <persName ref="prsn:Carl02">T.P.C.</persName> some books last August. He had more than nine shilling worth of books. However [I will?] let this be until I see him. Comfort to you and family and [remember?] The Lord giveth and the Lord taketh away. That is the salve for all superstitious sores. Human life is too fragile to be well designed: too subject to disease and accident.</p>
+         <p>Respectfully R. Carlile.</p>
+      </body>
+  </text>
+</TEI>

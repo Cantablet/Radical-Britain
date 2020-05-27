@@ -258,6 +258,26 @@
                         <geo></geo>
                     </location>
                 </place>
+                <place xml:id="Salf01">
+                    <idno type="plc">Salf01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Beard's Chapel</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>Beard's (Bear01) chapel in Salford; RC 448</note>
+                </place>
                 <place xml:id="Shef01">
                     <idno type="plc">Shef01</idno>
                     <idno type="tgn">7010692</idno>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 462</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="plc:Manc02">44 Booth St, Oxford Rd, Manchester</placeName>
+               <date when="1838-03-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>My Dear Friend,</p>
+         <p>It is within the last quarter of an hour that I have read the unwelcome and painful news of the death of <persName ref="prsn:Turt02">your son</persName>. I came in from <placeName ref="tgn:7010560">Stockport</placeName> on sunday and found the paper here ; but, on asking, <persName ref="prsn:Carl02">T.P.C.</persName> had seen nothing it it. I had company and had to return to <placeName ref="tgn:7010560">Stockport</placeName>, so I put it by for another day's perusal. It occurred to me this morning, the first here for a week, that you had sent the paper for something in it ; I saw <persName ref="prsn:Otle01">Otley's</persName> poetry and the Anticorporation meeting but never dreamt of a death concerning me. I began to look at the marriages, to see if <persName ref="prsn:Carl05">Mary Ann</persName> had got married, and then my eye glanced on this unhappy death. I really grieve with you for the loss of this boy because I had formed high hopes of him: he was one of the [[2]] best youths I had met in the country and I have often wished that my boys were like him. I suppose the winter was too severe for him. It has, in <placeName ref="tgn:7010477">Manchester</placeName>, tried me much since Christmas, caused me to neglect my room, which too has been intolerably cold, so that I have not had a good audience since Christmas. I am beginning to move again for the present year. iIt is well I have found a purse ; for I find it difficult to get any income from preaching. Three wednesday evenings, I have been sparring with <persName ref="prsn:Bear01">Beard</persName> about Trinity and Unity; but he is very shy of me. I am in hope to bring out some of them for discussion: at least, this is what I aim at. <persName ref="prsn:Shar01">Mrs. C.</persName> is at <placeName ref="plc:Enfi01">Enfield</placeName> but will join me soon. I spent three weeks with her at Christmas. I hope to make this a fruitful year. I have felt for some days that it was time I wrote you a letter. I sent you a settling parcel just before I left <placeName ref="tgn:7010477">Manchester</placeName> for <placeName ref="tgn:7011781">London</placeName> which I hope you have safely received.</p>
+         <p>[[3]] Express my sympathy and condolence with <persName ref="prsn:Turt03">Mrs Turton</persName>, <persName ref="prsn:Carl05">Mary Ann</persName> and <persName ref="prsn:Carl04">Jane</persName>. I cannot imagine any thing that could have been an equal loss to you. Excepting <persName ref="prsn:Carl03">Alfred</persName>, neither of my boys promises to be anything; while I had pictured yours as one of my future preachers.</p>
+         <p>I shall be glad to have a letter from you after a few weeks that you have passed the acuteness of your loss.</p>
+         <p>It is of no use to talk to you of the will of Divine Providence. My God the father is the Law of Necessity and the loss of this fine boy is a proof of it. God the Son could not save his physical life though it had endowed him with intellectual life. I had not entertained the idea that his illness would lead to premature death — Grieve moderately. I must allow a little for I should and do grieve for him myself.</p>
+         <p>Respectfully Richard Carlile</p>
+      </body>
+  </text>
+</TEI>
