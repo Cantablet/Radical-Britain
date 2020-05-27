@@ -57,66 +57,20 @@
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Marl01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">John</forename>
-                     <surname sort="1">Marley</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn"></idno>
-                  <placeName>Walworth Street</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region>Durham</region>
-                     <settlement>Bishop Wearmouth</settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-10-18</date>
+               <persName ref="prsn:Marl01">
+                  <forename sort="2">John</forename>
+                  <surname sort="1">Marley</surname>
+               </persName>
+               <placeName ref="plc:Bish01">Walworth Street, Bishop Wearmouth</placeName>
+               <date when="1836-10-18"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Morr01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Thomas</forename>
-                     <surname sort="1">Morrison</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn"></idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date></date>
+               <persName ref="prsn:Morr01">
+                  <forename sort="2">Thomas</forename>
+                  <surname sort="1">Morrison</surname>
+               </persName>
+               <placeName></placeName>
+               <date/>
             </correspAction>            
          </correspDesc>
       </profileDesc>
@@ -132,7 +86,7 @@
          <p><placeName ref="tgn:7017245">Sunderland</placeName> Oct 10th 1836</p>
          
          <p>We the undersigned having been highly gratified by the able manner in which Mr Morrison delivered his course of Lectures on the Morrisonian system of Astronomy: and being desirous that he should deliver a course of Lectures on Political oeconomy in this town, do respectfully invite him to do so at his earliest convenience.</p>
-
+         <ab>
          <persName>John Toplin</persName>			
          <persName>William Chalk</persName>
          <persName>A Gordon</persName>		
@@ -161,7 +115,7 @@
          <persName>John Clarke[?]</persName>			
          <persName>John Grundy</persName>
          <persName>Wm [??]</persName>
-         <persName ref="prsn:Marl01">John Marley</persName>
+         <persName ref="prsn:Marl01">John Marley</persName></ab>
       </body>
   </text>
 </TEI>

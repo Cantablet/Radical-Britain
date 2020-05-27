@@ -50,72 +50,26 @@
             </prefixDef>
             <prefixDef ident="grp" 
                matchPattern=" ([a-z]+) " 
-               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Thom01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Robert</forename>
-                     <surname sort="1">Thompson</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc">Newc01</idno>
-                  <idno type="tgn"></idno>
-                  <placeName>15 Brandling Place, Newcastle</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine>15 Brandling Place</addrLine>
-                        <addrLine>Newcastle</addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-09-11</date>
+               <persName ref="prsn:Thom01">
+                  <forename sort="2">Robert</forename>
+                  <surname sort="1">Thompson</surname>
+               </persName>
+               <placeName ref="plc:Newc01">15 Brandling Place, Newcastle</placeName>
+               <date when="1836-09-11"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Turt01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Thomas</forename>
-                     <surname sort="1">Turton</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc">Shef01</idno>
-                  <idno type="tgn"></idno>
-                  <placeName>35 Bailey Street, Sheffield</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine>35 Bailey Street</addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Turt01">
+                  <forename sort="2">Thomas</forename>
+                  <surname sort="1">Turton</surname>
+               </persName>
+               <placeName ref="plc:Shef01">35 Bailey Street, Sheffield</placeName>
                <date></date>
             </correspAction>            
          </correspDesc>
