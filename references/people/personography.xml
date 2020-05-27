@@ -626,6 +626,37 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Coop01">
+              <idno type="prsn">Coop01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">James</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Cooper</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
            <person xml:id="Cros01">
               <idno type="prsn">Cros01</idno>
               <idno type="isni"></idno>
@@ -983,6 +1014,38 @@
               </listRelation>  
               <note>Father of Joseph Harris Harr01; had a shoemaking business referred to in RC 448</note>
            </person>
+           <person xml:id="Hawt01">
+              <idno type="prsn">Hawt01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Hawthorn</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 467</note>
+           </person>
            <person xml:id="Heth01">
               <idno type="prsn">Heth01</idno>
               <idno type="isni"></idno>
@@ -1039,6 +1102,69 @@
                  <placeName></placeName>
                  <idno type="tgn"></idno>
               </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Hill01">
+              <idno type="prsn">Hill01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Hill</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 466</note>
+           </person>
+           <person xml:id="Holm01">
+              <idno type="prsn">Holm01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">William</forename>
+                 <forename full="init" sort="3">Vampleur</forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Holmes</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
               <sex></sex>
               <nationality></nationality>
               <education></education>
@@ -1168,6 +1294,37 @@
                  <placeName></placeName>
                  <idno type="tgn"></idno>
               </death>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Lons01">
+              <idno type="prsn">Lons01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military">Lord</roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Lonsdale</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
               <sex></sex>
               <nationality></nationality>
               <education></education>
@@ -1929,6 +2086,37 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation> 
               <note>See RC 151</note>
+           </person>
+           <person xml:id="Ward03">
+              <idno type="prsn">Ward03</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick">Zion</addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Ward</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
            </person>
         </listPerson>
      </body>

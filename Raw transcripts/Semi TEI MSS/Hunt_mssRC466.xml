@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 466</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7011781">London</placeName>
+               <date when="1838-07-12"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Friend –</p>
+         <p>I have a couple of Newspapers and the Diegesis to send you as a distant proof that I do not altogether forget you. The Church has stopped with No 8 so far ; whether we shall make a volume of it I can not yet say.</p> 
+         <p>My exertion brings me no money except from the private source. There I am well supported; but that is not a satisfactory and prospective certainty. We have sunk forty pounds in  The Church so far.</p>
+         <p><persName ref="prsn:Hill01">Hill</persName> of <placeName ref="tgn:7010831"><choice><sic>Wisbeach</sic><corr>Wisbech</corr></choice></placeName> has taken liberties with my letters. I am going to <placeName ref="tgn:7012026">Newcastle upon Tyne</placeName> in August and may pass you but cannot say positively. I will manage to send you all the correspondence that passes in the Star in the East.</p>
+         <p>I shall be glad to hear from you in any way by post or parcel. I shall be at <placeName ref="plc:Enfi01">Enfield High Way</placeName> another week or two. [[2]]</p>
+         <p>The people are at this moment very apathetic. No individual seems to have any influence over them. I excited much interest in <placeName ref="tgn:7012005">Norwich</placeName>; but there was no one to come near for discussion.In <placeName ref="tgn:7010831"><choice><sic>Wisbeach</sic><corr>Wisbech</corr></choice></placeName>, have it all quietly my own way.</p>
+         <p>The project of <persName ref="prsn:Owen01">Robert Owen</persName> grows in nothing but its humbug. Is there any party worth looking after in <placeName ref="tgn:7010692">Sheffield</placeName> for discussion? do they muster to the number of two or three hundred?</p>
+         <p><persName ref="prsn:Shar01">Mrs. C.</persName> makes her debut in <placeName ref="tgn:7011781">London</placeName> as a revived Lecturer on monday next. I shall try her in a few lectures to see if she can excited any interest in the country. We are all in good health and shall be glad to hear it is so in your family.</p>
+         <p>Respectfully</p>
+         <p>R. Carlile</p>
+      </body>
+  </text>
+</TEI>

@@ -87,6 +87,45 @@
                     </location>
                     <note>Mentioned in RC 464</note>
                 </place>
+                <place xml:id="Carl01">
+                    <idno type="plc">Carl01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Carlile Market Place</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
+                <place xml:id="Carl02">
+                    <idno type="plc">Carl02</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Carlile theatre</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>RC 467</note>
+                </place>
                 <place xml:id="Enfi01">
                     <idno type="plc">Enfi01</idno>
                     <idno type="tgn"></idno>
@@ -181,6 +220,27 @@
                     <location type="geo">
                         <geo></geo>
                     </location>
+                </place>
+                <place xml:id="Lond05">
+                    <idno type="plc">Lond05</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>3 Copthall Chamber 8</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement>London</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine>3 Copthall Chamber 8</addrLine>
+                            <addrLine>Throgmorton Street</addrLine>
+                            <addrLine>London</addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>Residence of James Cooper, see RC 89</note>
                 </place>
                 <place xml:id="Manc01">
                     <idno type="plc"></idno>

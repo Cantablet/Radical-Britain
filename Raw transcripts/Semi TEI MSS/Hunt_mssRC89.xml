@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 89</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Coop01">
+                  <forename><choice><abbr>Jas</abbr><expan>James</expan></choice></forename>
+                  <surname>Cooper</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="plc:Lond05">3 Copthall, Throgmorton Street, London</placeName>
+               <date when="1838-11-15"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <forename><choice><abbr>Richd</abbr><expan>Richard</expan></choice></forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>My Dear Sir,</p>
+         <p>Yours of the 14th instant came to hand this morning. It affords me a very great degree of pleasure to learn that you are not only as you very facetiously term it in the Land of the living, but that at <placeName ref="tgn:7010281">Carlisle</placeName> and <placeName ref="tgn:7030113">Cockermouth</placeName> you have realized your expectations. I should like to have the pleasure of seeing you warmly approved at <placeName ref="tgn:7010597">Liverpool</placeName> or indeed at any other place, however much inferior the state of mind might be to your own as we very frequently strengthen our own vision of a Case by the weakness of our adversary's but that I am just now entering upon the Latin Language and do not like to break in upon the study ; however as your are about to oppose the Socialists, and that we differ slightly on some things I will, if you will promise not to think me presumptuous, venture a few words, and I am <choice><sic>embolden</sic><corr>emboldened</corr></choice> so to do, as I conceive that what I am about to treat of will in all probability embrace part of the discussion, — The Socialists say that as we are not free agents there is no merit no demerit and that rewards and punishments are inconsistent with the organization of Man — You say we are free agents and as such are accountable for our actions — Now this is a point upon which I differ from you both. I contend that man is not a free agent ; that he acts by necessity and that not withstanding he is a responsible animal and these are my reasons. We are led to the choice of objects from the greatest quantity of pleasure we imagine them to contain, compared with the pain, and that which presents the greatest quantity of the former with the least quantity of the latter, that we invariably take and as far as I can learn all other animals do the same.— It [[2]] appears to me to be an innate property of animal life being the same throughout that whole kingdom and if traced to its source will be found to be no other than self-love — If that be granted we can have no choice ergo we are not free — again if I am a free agent, and that the freedom of will is the criterion of that state, how is it that when <sic>agreable</sic> objects present themselves I cannot make them appear <sic>disagreable</sic> and vice versa. — Now then for the responsibility — The object which presents the least pleasure to one man presents the most to another, this I say, purely from a difference of organization coupled with the circumstances acting upon that organization ; nor can they altho' virtually seeking the attainment of the same object, avoid taking a different view ; but alter the circumstances which lead to their respective choice and you alter the action of both, and that which was pleasure to one and pain to the other : virtuous in one and vicious in the other becomes reversed with the parties : for instance a man commits suicide, you will say he could avoid it at the time if he will. I say no, for so long as the circumstances surrounding him operate upon his mind so powerfully as to induce him to believe that there is more pleasure in the act than pain, whether it proceed from a want of education – a vitiated constitution or an erroneous view of the case, he can no more avoid the commission of it than you can resist the impulse which leads you to a desire of bettering the condition of your fellow man and preferring a state of virtue with indigence to vice with affluence ; In short the very fact of our conceiving our reason in the choice whether that reason be natural or cultivated is strong presumptive evidence against free agency when it is considered that we can only act in our own way viz by making choice of what appears to us the most pleasing object. I may upon seeing a very handsome woman, be led to [[3]] commit a rape under the impression that it is only attended with a small penalty ; but directly ; you alter the cirucmstance by making the penalty death, you alter the nature of the action, for the best of all possible reasons, it is attended with more pain than pleasure —— Ignorance is the precursor of crime ; cultivate the mind and you dissipate the evil, by making man sensible of the position which he holds in the scale of animated nature, and as it is in the power of every man to do this especially when he is assisted by the existing Government, whose duty it becomes to attend to it before they frame Laws to punish it, he becomes a responsible animal.</p>
+         <p>Your letter dated the 9th <choice><abbr>Sept</abbr><expan>September</expan></choice> did not come to hand till the middle of august and as I <unclear reason="illegible">do not</unclear> know where to address you I hope I shall <unclear reason="illegible">be</unclear> excused for the hitherto seeming neglect <unclear reason="illegible"></unclear>   receive[?] "Walker  through McCousins in h[????] I wish <persName ref="prsn:Shar01">Mrs C</persName> had seen it previous to her [????] Your remembrance to Mr &amp; Mrs Cooper has [???] to who deserve to be named in return. [???] you have been unwell which I am sorry [???] and hope that it is only trivial and that [???] not prevent you prosecuting your views [???] sorry that my want of space has obliged me  [???] rather short. The subject of free agency &amp; responsibility but as I am writing to one to whom a solitary hint is sufficient perhaps it is as well as though I wrote a volume. So now adieu and believe me I remain</p> 
+         <p>My Dear Sir</p> 
+         <p>truly &amp; <choice><abbr>affecty</abbr><expan>affectionately</expan></choice> yours</p>
+         <p><choice><abbr>Jas</abbr><expan>James</expan></choice> Cooper</p>
+      </body>
+  </text>
+</TEI>

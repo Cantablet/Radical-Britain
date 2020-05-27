@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 467</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="plc:Enfi01">Enfield High Way</placeName>
+               <date when="1838-12-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename><supplied reason="inferred">Thomas</supplied></forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>My dear Friend,</p> 
+         <p><persName ref="prsn:Holm01">Holmes</persName> probably ere this will have told you of my return to <placeName ref="tgn:7012288">Middlesex</placeName>. I received from him as a present from you two pair of razors, two pair of scissors and four penknives. I picked up a handsome set of razors as a present from a Hair Dresser of <placeName ref="tgn:7010597">Liverpool</placeName>, so I am quite rich again, and I take care to distribute your razors among some of the best chins in the country.</p>
+         <p>I have been passing my time usefully since the Association Week in <placeName ref="tgn:7012026">Newcastle upon Tyne</placeName>. My chief stand has been made in <placeName ref="tgn:7010281">Carlisle</placeName> this autumn, where and with <placeName ref="tgn:1050379">Annan</placeName>, I spent two months. I find that I kept [[2]] not a month too long for my health's sake as I broke down altogether in <placeName ref="tgn:7010477">Manchester</placeName>. I must now keep by the fireside for two or three months and nurse myself carefully ; though I mean to write much on politics and theology. Whatever I print you shall see. I send you now some of the principal placards I printed during this trip ; but I have not saved you all. I have gained no newspaper notice worth sending you. The Cumberland Packet, a <placeName ref="tgn:7010207">Whitehaven</placeName> Paper, the Tory <persName ref="prsn:Lons01">Lord Lonsdale's</persName> Paper, fell foul of me, and went so far as to say that I undertook to Lecture on Teetotalism but got drunk before hand and disappointed the audience. A vagabond of the name of <persName ref="prsn:Hawt01">Hawthorn</persName> had made a boast of this, he began to abuse me before [[3]] an audience in <placeName ref="tgn:7030113">Cockermouth</placeName>, I mentioned his own statement to the audience and the Tory made the anecdote apply to me.</p>
+         <p>I shall be quite willing to visit <placeName ref="tgn:7010692">Sheffield</placeName> in the Spring, not fearing but I shall make it pay there. My warfare with the Socialists will excited a keen interest there ; for I <orig>teaze</orig> them every where ; looking at their calculated future as nothing but a superstition. I made way powerfully against them in <placeName ref="tgn:7010597">Liverpool</placeName>.</p>
+         <p>I hear your daughters are Social Festivalists. I have no objection to that ; and cannot but allow that in their retrospect of the present state of society they work usefully.</p> 
+         <p>We are all well here. <persName ref="prsn:Shar01">Mrs C.</persName> joined me in <placeName ref="tgn:7010281">Carlisle</placeName> and lectured on Phrenology ; also at <placeName ref="tgn:1050379">Annan</placeName> and in the summer at <placeName ref="tgn:7011614">Gravesend</placeName> and in <placeName ref="tgn:7011781">London</placeName> once.</p> 
+         <p>[[4]] I was really triumphant in <placeName ref="tgn:7010281">Carlisle</placeName>. The People demanded that some of the preachers should meet me. Every one was asked and declined. In despair, a messenger was sent to <placeName ref="tgn:1050379">Annan</placeName> to  <persName ref="prsn:Ward03">Mr Ward</persName> whose letter, I enclose. He came boasting in the <placeName ref="plc:Carl01">Market Place</placeName> that he was about to meet in the <placeName ref="plc:Carl02">theatre</placeName> and to silence one of the adversaries of the Lord. I gave him such a discourse to deal with as he could not touch ; but altogether complimented it, declaring in the theatre, that he altogether approved it. I reminded him that I had superseded his historical christianity. That was a difficulty for which he required time ; which is the allusion of his letter. He was angry at my going to his place <placeName ref="tgn:1050379">Annan</placeName>. I cannot explain all of it here; but it was most interesting.</p>
+         <p>I want another <persName ref="prsn:Robe01">Roberts</persName> on Gipsies, [of?] which I apprised <persName ref="prsn:Holm01">Holmes</persName>.</p>
+         <p>Compliments to <persName ref="prsn:Turt03">Mrs Turton</persName> and Girls –</p>
+         <p>Yours &amp;c</p>
+         <p>R. Carlile</p>
+      </body>
+  </text>
+</TEI>
