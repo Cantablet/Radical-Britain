@@ -47,25 +47,32 @@
     <text>
         <body>
             <listOrg>
-                <org xml:id="">
+                <org xml:id="test">
                     <idno type="grp"></idno>
                     <orgName></orgName>
-                    <listPlace></listPlace>
-                    <place>
-                        <idno type="plc"></idno>
-                        <idno type="tgn"></idno>
-                        <placeName></placeName>
-                        <location></location>
-                        <country></country>
-                        <settlement></settlement>
-                        <address></address>
-                    </place>
-                    <state type="subscribers" when="">
+                    <listPlace>
+                      <place>
+                        <placeName>test</placeName>
+                        <location type="geopolitical">
+                              <country></country>
+                              <region></region>
+                              <settlement></settlement>
+                        </location>
+                        <location type="address">
+                            <address>
+                                <addrLine></addrLine>
+                                <addrLine></addrLine>
+                            </address>
+                        </location>
+                        <location type="geo">
+                            <geo></geo>
+                        </location>
+                      </place>
+                    </listPlace>
+                    <state type="subscribers" when="1800">
                         <listPerson>
-                            <person>
-                                <idno type="prsn"></idno>
-                                <persName></persName>
-                            </person>
+                              <persName ref="test"></persName>
+                            
                         </listPerson>
                     </state>
                 </org>
