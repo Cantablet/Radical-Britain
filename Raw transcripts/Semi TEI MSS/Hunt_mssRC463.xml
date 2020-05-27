@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 463</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010477">Manchester</placeName>
+               <date when="1838-04-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Sir,</p>
+         <p>I duly received your parcel and am further obliged for your care of me. I have distributed the Memorial Tokens of your <persName ref="prsn:Turt02">son's</persName> death, where I thought they would create a lasting feeling, and, among others your name and virtues are not unknown to, but are fully appreciated by, my <placeName ref="tgn:7008132">Gloucestershire</placeName> Friends. I mat at <placeName ref="tgn:7010544"><choice><sic>Staley Bridge</sic><corr>Stalybridge</corr></choice></placeName> yesterday, a young <placeName ref="tgn:7010692">Sheffield</placeName> Traveller whom I so far interested as to hear him solicit a correspondence with me. I referred him to you as the best medium for that: but I neglected to ask his card. I have been three nights and am to have a fourth tomorrow at <placeName ref="tgn:1029651">Hyde</placeName> discoursing with <persName ref="prsn:Step01">Stephens</persName> whether we should seek the Repeal of the New Poor Law Amendment Act, in preference to going for the Tithes and other Church Property as an original and still legal right wherewith to supersede the necessity of any Poor Law. I have had nothing but his audience to address and when I pressed [[2]] him hard he knew how to relieve himself by appealing to their ignorance and their passions against me. It has however been a most interesting, most excitable and useful discussion. I had to make him angry by provocation before I could bring him out ; but we shall separate better friends. <persName ref="prsn:Step01">Stephens</persName> has a deal of bilious ferocity about him and but little of the amenities and suavities of civilized life: but this must be confessed, that he has ringleted and thrown away the favours of the rich to advocate a better lot for the lowest poor. Taking his character altogether, I like it ; but I see great room for improvement in it. He is not deep in knowledge ; but strong in style of expressing what he knows. He could not interest an intelligent audience; but he deeply interests his non intelligent one. I had something to do to keeping grace and favour with them after calling [[3]] him out. Still I have accomplished my purpose of reaching them.</p>
+         <p>I have some little prospect of a theological discussion with a respectable man in <placeName ref="tgn:7010477">Manchester</placeName>, arising from my going to <persName ref="prsn:Bear01">Beard's</persName> <placeName ref="plc:Salf01">Chapel</placeName> on the wednesday evening. Otherwise my room has been ill attended since Christmas. The class of people that should come to me now stand off on account of their yet unmoved prejudices toward me on the old ground: while the devil they make me frightens others. The Radicals are here low and despicable, not worth the courting. The Owenites are the best class; but they are sectarian and fanatical, hating all professed reformers who are not Owenite. shall we ever see mankind, or will future eyes see them working together for common good? I begin to doubt it; still I would have no effort relinquished toward it, now or for ever. We may as well be going this as any thing else and better than being idle and listless: To save some, if we cannot save all, is something.</p>
+         <p>I send you a hundred of each of two Penny Tracts and 50 Three halfpenny ; wishing you to shop them with <persName ref="prsn:Barr01">Barraclough</persName> and <persName ref="prsn:Ling01">Lingard</persName> if you can: or do the best you can with them. If nothing else, give them away. you will find them interesting.</p> 
+         <p>[[4]] I shall be very glad to come to <placeName ref="tgn:7010692">Sheffield</placeName> any week in which there is a way open to my doing any good. I should not like to come there if I could not get a public standing room for an audience: for I had rather address the <placeName ref="tgn:7008154">Lancashire</placeName> folks in the open air this summer. My <placeName ref="tgn:7012005">Norwich</placeName> opponent <persName ref="prsn:Gree01">Green</persName> has gone mad and is really under restraint. I am going there in May. In <placeName ref="tgn:7010692">Sheffield</placeName>, hitherto, I have not failed to succeed and do good: and I have a desire to visit it periodically, in union with the judgment of my friends there.</p>
+         <p>You will find the discussion with <persName ref="prsn:Dalt01">Dalton</persName> and <persName ref="prsn:Jone01">Jones</persName> scarcely interesting. They are not so eager to print their discussions with me. This with <persName ref="prsn:Step01">Stephens</persName> is not likely to see print. Had it been any body else, there would have been a flaming newspaper to[-]do. now I doubt if it will find notice in the Northern Star. I am certainly in a curious predicament as to pastors in this country at present: every one of them alike shy of me; but I shall work my way out to something eminent among them. Love to <persName ref="prsn:Turt03">Mrs Turton</persName> and the <note>Likely Mary Ann and others?</note>Girls -</p>
+         <p>Respectfully R. Carlile.</p>
+            
+         <p>[[5]] P.S. since I last write, I have made the acquaintance of <persName ref="prsn:Acla01">Mr Acland</persName>[?], who figured at <placeName ref="tgn:7011198">Bristol</placeName>, <placeName ref="tgn:7010370">Hull</placeName> and last at <placeName ref="tgn:7010560">Stockport</placeName>. He is now trying <placeName ref="tgn:7010477">Manchester</placeName> and <placeName ref="tgn:7010478">Salford</placeName>. He has got into a quarrel with <persName ref="prsn:Step01">Stephens</persName>, which I rather regret. Neither of them are theological reformers but I have been trying to school both and have interested both with my revelation of the Bible Mystery. Both say it is beautiful; but <persName ref="prsn:Step01">Stephens</persName> says let us get the New Poor Law Amendment Act repealed first: and <persName ref="prsn:Acla01">Acland</persName> says, let us keep it on: so there or here there are at daggers drawn, and will not use me as a mediator: and I wish to be a mediator between them. Oh! these public men! and oh! for those who are led by the nose through them and who cannot think for themselves.</p>
+         <p>A deputation has been here with a project of a National Petition and a National Fast for Universal Suffrage: and after that, not getting it, a national disuse of exciseable articles. The old story revived — the to nothing story.</p>
+         <p>[[6]] <persName ref="prsn:Carl03">Alfred</persName> wants me to start a weekly pamphlet at his risk. I have offered to do so and to call it The Church.</p>
+      </body>
+  </text>
+</TEI>

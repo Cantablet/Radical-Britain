@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 464</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7011781">London</placeName>
+               <date when="1838-05-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Sir,</p>
+         <p><persName ref="prsn:Carl03">Alfred</persName> and I together have started a new publication entitled "The Church". The speculation is his: the labour of editing mine.</p>
+         <p>I write to let you know it and that you may make it known.</p>
+         <p>l left <placeName ref="tgn:7010477">Manchester</placeName>  on Easter Sunday, had a set to with <persName ref="prsn:Finc01">Finch[?]</persName> the Socialist in <placeName ref="tgn:7010597">Liverpool</placeName> that evening - came to <placeName ref="tgn:7010534">Bolton</placeName> the next day and had a set to with <persName ref="prsn:Acla01">Mr Acland</persName> in the <placeName ref="plc:Bolt01">Bolton Theatre</placeName> on tuesday evening. Came on to <placeName ref="tgn:7010955">Birmingham</placeName> on the wednesday, thence to <placeName ref="tgn:7011192">Cheltenham</placeName> to visit my new and great and good friends, with whom I spent a most happy week.—</p>
+         <p>Reached <placeName ref="plc:Enfi01">Enfield High Way</placeName> on sunday last to see a No or two of The Church. hence I go to <placeName ref="tgn:7010831"><choice><sic>Wisbeach</sic><corr>Wisbech</corr></choice></placeName>, <placeName ref="tgn:7010791"><choice><abbr>Lynn</abbr><expan>King's Lynn</expan></choice></placeName>, <placeName ref="tgn:7012005">Norwich</placeName>, <placeName ref="tgn:7010782"><choice><abbr>Yarmouth</abbr><expan>Great Yarmouth</expan></choice></placeName> and <placeName ref="tgn:1028689">Bungay</placeName>, perhaps <placeName ref="tgn:7010914">Bury St <choice><sic>Edmonds</sic><corr>Edmunds</corr></choice></placeName>. Shall return to <placeName ref="tgn:7011781">London</placeName> [[2]] toward the end of June – go hence to <placeName ref="tgn:7011192">Cheltenham</placeName> <placeName ref="tgn:7015155">Worcester</placeName>, <placeName ref="tgn:7010955">Birmingham</placeName>, the <placeName ref="tgn:7459382">Potteries</placeName> and back to <placeName ref="tgn:7010477">Manchester</placeName>: thence to <placeName ref="tgn:7010692">Sheffield</placeName> some day. <persName ref="prsn:Shar01">Mrs C.</persName> will now travel and lecture under my travelling name of Mrs Clay.— While I am absent from <placeName ref="tgn:7010477">Manchester</placeName> my room is occupied by the Socialists among whom I hear there is a split.</p>
+         <p>I have no particular news to tell you, save that my prospects improve, which I know will be pleasant news to you.</p> 
+         <p>I have left <persName ref="prsn:Carl02">Tom</persName> in <placeName ref="tgn:7010477">Manchester</placeName>, not knowing what to do with him, and am trying to get him a shop there. If he does well, he will agreeably disappoint me.</p>
+         <p>I will look about for your Diegesis next week.</p>
+         <p>love to your family. respectfully</p>
+         <p>R. Carlile</p>
+         
+      </body>
+  </text>
+</TEI>

@@ -47,6 +47,38 @@
   <text>
      <body>
         <listPerson>
+           <person xml:id="Acla01">
+              <idno type="prsn">Acla01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Acland</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex>M</sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>
+              <note>RC 463</note>
+           </person>
            <person xml:id="Alla01">
               <idno type="prsn">Alla01</idno>
               <idno type="isni"></idno>
@@ -146,6 +178,38 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
               <note>RC 450 Carlile claims never to have heard of any Atkin, or Atkins</note>
+           </person>
+           <person xml:id="Barr01">
+              <idno type="prsn">Barr01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Barraclough</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation> 
+              <note>RC 463</note>
            </person>
            <person xml:id="Bear01">
               <idno type="prsn">Bear01</idno>
@@ -595,6 +659,38 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Dalt01">
+              <idno type="prsn">Dalt01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Dalton</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 463</note>
+           </person>
            <person xml:id="Detr01">
               <idno type="prsn">Detr01</idno>
               <idno type="isni"></idno>
@@ -693,6 +789,38 @@
               <listRelation>
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
+           </person>
+           <person xml:id="Finc01">
+              <idno type="prsn">Finc01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Finch</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation> 
+              <note>Socialist of Liverpool; see RC 464</note>
            </person>
            <person xml:id="Gree01">
               <idno type="prsn">Gree01</idno>
@@ -921,6 +1049,38 @@
               <listRelation>
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
+           </person>
+           <person xml:id="Jone01">
+              <idno type="prsn">Jone01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Jones</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 463</note>
            </person>
            <person xml:id="Ling01">
               <idno type="prsn">Ling01</idno>
@@ -1424,6 +1584,7 @@
                  <surname sort="1">Sharples</surname>
                  <surname type="married" sort="2">Carlile</surname>
                  <addName type="alias">Isis</addName>
+                 <addName type="alias">Mrs Clay</addName>
               </persName>
               <birth>
                  <date when=""></date>
@@ -1443,7 +1604,8 @@
               <floruit></floruit>
               <listRelation>
                  <relation name="" active="" mutual="" passive=""></relation>
-              </listRelation>  
+              </listRelation> 
+              <note>At one point employed Carlile's travelling name of Mrs Clay RC 464</note>
            </person>
            <person xml:id="Shep01">
               <idno type="prsn">Shep01</idno>
@@ -1476,6 +1638,38 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
               <note>See RC 460</note>
+           </person>
+           <person xml:id="Step01">
+              <idno type="prsn">Step01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Stephens</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 463</note>
            </person>
            <person xml:id="Tayl01">
               <idno type="prsn">Tayl01</idno>

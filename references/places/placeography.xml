@@ -67,6 +67,26 @@
                     </location>
                     <note>Robert Thompson's home, see Rc 151</note>
                 </place>
+                <place xml:id="Bolt01">
+                    <idno type="plc">Bolt01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Bolton Theatre</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>Mentioned in RC 464</note>
+                </place>
                 <place xml:id="Enfi01">
                     <idno type="plc">Enfi01</idno>
                     <idno type="tgn"></idno>
