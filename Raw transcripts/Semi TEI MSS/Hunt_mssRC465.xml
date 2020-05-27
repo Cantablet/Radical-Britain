@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>mssRC 465</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="7011781">London</placeName>
+               <date when="1838-05-15"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename><supplied reason="inferred">Thomas</supplied></forename>
+                  <surname><supplied reason="inferred">Turton</supplied></surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Friend,</p>
+         <p>I have received your letter in town when I am just in the humour for letter writing and fill up my last scrap of paper for you. I am sorry the <placeName ref="tgn:7010692">Sheffield</placeName> People do not like the Church; though I am looking for an entirely new class of Readers. My first No converted a fine fellow of a Clergyman here in town and he is quite in raptures. I have received a visit, paid him a visit and have had three notes from him. His name has appeared in public as the Curate of <placeName ref="tgn:7027418">Swalecliffe</placeName>. It is <persName ref="prsn:Clai01">Claiborne</persName> an American born whose father was one of the strugglers for Independence and intimate with <persName ref="prsn:Pain01">Paine</persName>.</p>
+         <p>I left <placeName ref="tgn:7010477">Manchester</placeName> on Easter [[2]] Sunday spent that evening in conflict with the Socialists of <placeName ref="tgn:7010597">Liverpool</placeName> ; got to <placeName ref="tgn:7010534">Bolton</placeName> the next day to meet <persName ref="prsn:Acla01">Acland</persName> in the <placeName ref="plc:Bolt01">Bolton Theatre</placeName>. — Came on to <placeName ref="tgn:7010955">Birmingham</placeName>; from that I spent eight days with my new and good friends in <placeName ref="tgn:7008132">Gloucestershire</placeName>, where I was superlatively happy. have been in <placeName ref="tgn:7011781">London</placeName> three weeks come sunday laying the foundation of "the Church". Am now going off to <placeName ref="tgn:7010831"><choice><sic>Wisbeach</sic><corr>Wisbech</corr></choice></placeName>, <placeName ref="tgn:7012005">Norwich</placeName> &amp;c. I assure you I am very happy and very much at ease in my mind. The few friends I have are worth all the rest of the world.</p>
+         <p>I met <persName ref="prsn:Rigb01">Rigby</persName> at <placeName ref="tgn:1029651">Hyde</placeName> a week or so before I left. He had not much chance with me. In <placeName ref="tgn:7010597">Liverpool</placeName> I quite [[3]] electrified the party coming suddenly and unexpectedly upon them. The People I know will run after hobbies[?] and promises of this kind, having no mind for more solid things. They are using my room in <placeName ref="tgn:7010477">Manchester</placeName>  ; so far good. Owenism is the best of isms as it has no superstition in it. I shall be sending you a <placeName ref="tgn:7010831"><choice><sic>Wisbeach</sic><corr>Wisbech</corr></choice></placeName> Paper when I get there or any thing that comes in my way interesting. <persName ref="prsn:Carl02">T.P.C.</persName> is about to attempt a shop in <placeName ref="tgn:7010477">Manchester</placeName> ; but he is pressing me for what I  have not to give him. I will not forget your Diegesis and Volney's Researches. I have them both in my eye.</p>
+         <p>I shall not return to <placeName ref="tgn:7008154">Lancashire</placeName> until July and then by route of <placeName ref="tgn:7011192">Cheltenham</placeName> , <placeName ref="tgn:7015155">Worcester</placeName>, <placeName ref="tgn:7010955">Birmingham</placeName> [[4]] &amp;c.</p>
+         <p><persName ref="prsn:Harr01">Joseph Harris</persName> came to see me on sunday. His breaking up at <placeName ref="tgn:7012026">Newcastle</placeName> was a bad job, foolish job, al his property will be wasted in law <orig>expences</orig>. Joseph says it was the <persName ref="prsn:Harr02">father's</persName> doing. The father arrested him in London, got a cognovit[?], and off he set to <placeName ref="tgn:7012026">Newcastle</placeName>. Joseph did not go back again.</p>
+         <p>Am glad to gear your disconsolate family is in comparatively good health. Joseph Harris knew not of <persName ref="prsn:Turt02">Thomas'</persName> death and was thinking of writing to him.</p> 
+         <p>Adieu until we write or meet again.</p>
+         <p>Yours &amp;c</p>
+         <p>R Carlile</p>
+      </body>
+  </text>
+</TEI>

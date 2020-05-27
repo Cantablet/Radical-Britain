@@ -561,6 +561,38 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Clai01">
+              <idno type="prsn">Clai01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Claiborne</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation> 
+              <note>RC 465 relates as the Curate of Swalecliffe, and the son of William Claiborne an intimate of Paine </note>
+           </person>
            <person xml:id="Clem01">
               <idno type="prsn">clem01</idno>
               <idno type="isni"></idno>
@@ -1443,6 +1475,37 @@
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
            </person>
+           <person xml:id="Pain01">
+              <idno type="prsn">Pain01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Thomas</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Paine</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
            <person xml:id="Pear01">
               <idno type="prsn"></idno>
               <idno type="isni"></idno>
@@ -1541,6 +1604,38 @@
               <listRelation>
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
+           </person>
+           <person xml:id="Rigb01">
+              <idno type="prsn">Rigb01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Rigby</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex>M</sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 465</note>
            </person>
            <person xml:id="Robe01">
               <idno type="prsn">Robe01</idno>
