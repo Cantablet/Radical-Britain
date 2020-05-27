@@ -50,72 +50,26 @@
             </prefixDef>
             <prefixDef ident="grp" 
                matchPattern=" ([a-z]+) " 
-               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Carl01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename full="init" sort="2">R.</forename>
-                     <surname sort="1">Carlile</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7011781</idno>
-                  <placeName>London</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-05-05</date>
+               <persName ref="prsn:Carl01">
+                  <forename full="init" sort="2">R.</forename>
+                  <surname sort="1">Carlile</surname>
+               </persName>
+               <placeName ref="tgn:7011781">London</placeName>
+               <date when="1836-05-05"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Turt01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename full="init" sort="2">T.</forename>
-                     <surname sort="1">Turton</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc">Shef01</idno>
-                  <idno type="tgn"></idno>
-                  <placeName>30 Bailey Street Sheffield</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine>30 Bailey Street</addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Turt01">
+                  <forename full="init" sort="2">T.</forename>
+                  <surname sort="1">Turton</surname>
+               </persName>
+               <placeName ref="plc:Shef01">30 Bailey Street Sheffield</placeName>
                <date></date>
             </correspAction>            
          </correspDesc>
@@ -131,10 +85,10 @@
          <p>I shall start another paper but think now of waiting until January, to let the scramble be over.</p>
          <p>I am quite ready for a call into the country, if I can pay <orig>expences</orig> any where. I had rather not go where I cannot pay <orig>expences</orig>.</p>
          <p><persName ref="prsn:Harr01">Joseph Harris</persName> is doing well in <placeName ref="tgn:7012026"></placeName>Newcastle. <persName ref="prsn:Carl03">Alfred</persName> is well situated at a moderate [[3]] rent for <placeName ref="plc:Lond01">Fleet Street</placeName>. We shall do business on a new tact[?], advertise much and have no credits.</p>
-         <p>Many of my friends cant follow mew into a pure mythological description of Christianity. I hope you can, as I am sure it is the best point in infidelity yet reached.
-            <p>What are you doing with <persName ref="prsn:Turt02">Master T. T.</persName>? Is he to be a Lawyer, Doctor or Parson?
-         <p>If you come to London, you must spend a day or two with me in the country.
-         <p>I have quite resolved on one thing, not to identify myself with the class of men now self styled Radicals. there is no good to be done on that ground —
+         <p>Many of my friends cant follow mew into a pure mythological description of Christianity. I hope you can, as I am sure it is the best point in infidelity yet reached.</p>
+         <p>What are you doing with <persName ref="prsn:Turt02">Master T. T.</persName>? Is he to be a Lawyer, Doctor or Parson?</p>
+         <p>If you come to London, you must spend a day or two with me in the country.</p>
+         <p>I have quite resolved on one thing, not to identify myself with the class of men now self styled Radicals. there is no good to be done on that ground —</p>
          <p>respectfully</p>
          <p>R. Carlile</p>
       </body>

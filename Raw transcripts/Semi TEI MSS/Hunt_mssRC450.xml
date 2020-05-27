@@ -50,72 +50,26 @@
             </prefixDef>
             <prefixDef ident="grp" 
                matchPattern=" ([a-z]+) " 
-               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Carl01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename full="init" sort="2">R.</forename>
-                     <surname sort="1">Carlile</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7011781</idno>
-                  <placeName>London</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-06-02</date>
+               <persName ref="prsn:Carl01">
+                  <forename full="init" sort="2">R.</forename>
+                  <surname sort="1">Carlile</surname>
+               </persName>
+               <placeName ref="tgn:7011781">London</placeName>
+               <date when="1836-06-02"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Turt01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2"><supplied reason="omitted-in-original">Thomas</supplied></forename>
-                     <surname sort="1"><supplied reason="omitted-in-original">Turton</supplied></surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7010692</idno>
-                  <placeName><supplied reason="omitted-in-original">Sheffield</supplied></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Turt01">
+                  <forename sort="2"><supplied reason="omitted-in-original">Thomas</supplied></forename>
+                  <surname sort="1"><supplied reason="omitted-in-original">Turton</supplied></surname>
+               </persName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
                <date></date>
             </correspAction>            
          </correspDesc>

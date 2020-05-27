@@ -14,13 +14,13 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country></country>
+                  <country>USA</country>
                   <region></region>
                   <settlement></settlement>
-                  <institution></institution>
+                  <institution>Huntington Library</institution>
                   <repository></repository>
                   <collection></collection>
-                  <idno></idno>
+                  <idno>mssRC 20</idno>
                   <msName></msName>
                </msIdentifier>
             </msDesc>
@@ -50,74 +50,28 @@
             </prefixDef>
             <prefixDef ident="grp" 
                matchPattern=" ([a-z]+) " 
-               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Carl03</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename full="init" sort="2">A.</forename>
-                     <surname sort="1">Carlile</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc">Lond01</idno>
-                  <idno type="tgn">7011781</idno>
-                  <placeName>London</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine><supplied reason="omitted-in-original">2 Water-lane</supplied></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-05-02</date>
+               <persName ref="prsn:Carl03">
+                  <forename full="init" sort="2">A.</forename>
+                  <surname sort="1">Carlile</surname>
+               </persName>
+               <placeName ref="plc:Lond01">London</placeName>
+               <date when="1836-05-02"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Turt02</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename full="abb" sort="2">Thos</forename>
-                     <surname sort="1">Turton</surname>
-                     <genName full="abb">Jr</genName> 
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn"></idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date></date>
+               <persName ref="prsn:Turt02">
+                  <forename full="abb" sort="2">Thos</forename>
+                  <surname sort="1">Turton</surname>
+                  <genName full="abb">Jr</genName> 
+               </persName>
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
+               <date/>
             </correspAction>            
          </correspDesc>
       </profileDesc>

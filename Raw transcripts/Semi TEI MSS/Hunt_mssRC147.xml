@@ -50,73 +50,27 @@
             </prefixDef>
             <prefixDef ident="grp" 
                matchPattern=" ([a-z]+) " 
-               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Mcke01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename full="abb" sort="2">Alex</forename>
-                     <surname sort="1">McKerracher</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7009546</idno>
-                  <placeName>Edin[burgh]</placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-08-13</date>
+               <persName ref="prsn:Mcke01">
+                  <forename full="abb" sort="2">Alex</forename>
+                  <surname sort="1">McKerracher</surname>
+               </persName>
+               <placeName ref="tgn:7009546"><choice><abbr>Edin.</abbr><expan>Edinburgh</expan></choice></placeName>
+               <date when="1836-08-13"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Heth01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Henry</forename>
-                     <surname sort="1">Heth<supplied reason="omitted-in-original"></supplied>rington</surname>
-                     <addName>bookseller and publisher</addName>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc">Lond04</idno>
-                  <idno type="tgn"></idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Heth01">
+                  <forename sort="2">Henry</forename>
+                  <surname sort="1"><choice><sic>Hethrington</sic><corr>Hetherington</corr></choice></surname>
+                  <addName>bookseller and publisher</addName>
+               </persName>
+               <placeName ref="plc:Lond04">London</placeName>
                <date></date>
             </correspAction>            
          </correspDesc>
