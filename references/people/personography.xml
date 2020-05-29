@@ -41,6 +41,10 @@
               matchPattern="([a-z]+)" 
               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
            </prefixDef>
+           <prefixDef ident="work" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/works/workography.xml#$1">
+           </prefixDef>
         </listPrefixDef>
      </encodingDesc>
   </teiHeader>

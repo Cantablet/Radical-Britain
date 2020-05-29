@@ -4,91 +4,82 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country>USA</country>
-                  <region>California</region>
-                  <settlement>San Marino</settlement>
-                  <institution>Huntington Library</institution>
-                  <repository></repository>
-                  <collection>Carlile Papers</collection>
-                  <idno>mssRC 80</idno>
-                  <msName></msName>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
+     <fileDesc>
+        <titleStmt>
+           <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+           <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+           <msDesc>
+              <msIdentifier>
+                 <country>USA</country>
+                 <region>California</region>
+                 <settlement></settlement>
+                 <institution>Huntington Library</institution>
+                 <repository></repository>
+                 <collection>Carlile Papers</collection>
+                 <idno>mssRC 80</idno>
+                 <msName></msName>
+              </msIdentifier>
+              <msContents>
+                 <msItem>
+                    <author></author>
+                 </msItem>
+              </msContents>
+           </msDesc>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="prsn" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="isni" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="http://isni.org/isni/$1">
+           </prefixDef>
+           <prefixDef ident="viaf" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://viaf.org/viaf/$1">
+           </prefixDef>
+           <prefixDef ident="plc" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="tgn" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+           </prefixDef>
+           <prefixDef ident="grp" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="work" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/works/workography.xml#$1">
+           </prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Carl02</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Thomas</forename>
-                     <forename sort="3">Paine</forename>
-                     <surname sort="1">Carlile</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7010477</idno>
-                  <placeName>Manchester</placeName>
-                  <location type="geopolitical">
-                     <country>UK</country>
-                     <region>England</region>
-                     <settlement>Manchester</settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-11-11</date>
+               <persName ref="prsn:Carl02">
+                  <forename sort="2">Thomas</forename>
+                  <forename sort="3">Paine</forename>
+                  <surname sort="1">Carlile</surname>
+               </persName>
+               <placeName ref="tgn:7010477">Manchester</placeName>
+               <date when="1836-11-11"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Turt01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Thomas</forename>
-                     <surname sort="1">Turton</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7010692</idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Turt01">
+                  <forename sort="2">Thomas</forename>
+                  <surname sort="1">Turton</surname>
+               </persName> 
+               <placeName ref="tgn:7010692"><supplied reason="inferred">Sheffield</supplied></placeName>
                <date></date>
             </correspAction>            
          </correspDesc>
@@ -100,7 +91,7 @@
         <p>I am perfectly aware that I ought to have written sooner to let you know how we got on at <placeName ref="tgn:7010462">Huddersfield</placeName>, but illness is my excuse and business Father[']s, I am not quite certain whether it was grief at leaving <placeName ref="tgn:7010692">Sheffield</placeName>, or the sight of Huddersfield,  the most horrible town i ever put my foot in, that caused my illness but i was taken very ill on Saturday night, but thank the Father Son and Holy Ghost i am recovering,</p>
         <p>Father delivered six lectures in Huddersfield, commencing on Thursday, with three on Sunday, to an audience something like Angel's visits "few and far between", in a room, not [[2]] a room but a hen roost, or pig stye [sic] or hardly good enough for either, He left on Monday afternoon and arrived here about eight in the evening, since which time i have only left my bed when nature or God the Father, the physical power forced me,</p>
         <p>Father is gone to <placeName ref="tgn:7010534">Bolton</placeName> to Lecture this evening, and perhaps to-morrow, he is not over well.</p>
-        <p>If any thing particular should [happen/arise?] in the course of a few days, a letter will find us at Mr <persName ref="prsn:Heyw01">Heywood</persName>[']s <address ref="plc:Manc01"><addrLine>60 Oldham Street</addrLine></address>,</p>
+        <p>If any thing particular should [happen/arise?] in the course of a few days, a letter will find us at Mr <persName ref="prsn:Heyw01">Heywood</persName>[']s <placeName ref="plc:Manc01">60 Oldham Street</placeName>.</p>
         <p>The Owenistites are creating a great sensation here, there are Lectures and sermons preached by the parsons every day, on the danger of the "Infidelity preached at Mr Bywater's Rooms"</p>
         <p>I must be quick the senna is nearly ready and i shan't be able to write after that.</p> 
         <p>[[3]] I hear for certain that <persName>Mr. C. Clements</persName> is discharged from the Champion, Give our compliments to all respectable Infidels, and say that [father] is grieved that he could not convert them, to the true Faith,</p>
