@@ -50,72 +50,30 @@
             </prefixDef>
             <prefixDef ident="grp" 
                matchPattern=" ([a-z]+) " 
-               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1"">
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="work" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/works/workography.xml#$1">
             </prefixDef>
          </listPrefixDef>
       </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Carl01</idno>
-                  <idno type="isni">0000000063002493</idno>
-                  <idno type="viaf">36926352</idno>
-                  <persName>
-                     <forename sort="2">Richard</forename>
-                     <surname sort="1">Carlile</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7010477</idno>
-                  <placeName>Manchester</placeName>
-                  <location type="geopolitical">
-                     <country>UK</country>
-                     <region>England</region>
-                     <settlement>Manchester</settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-11-11</date>
+               <persName ref="prsn:Carl01">
+                  <forename sort="2">Richard</forename>
+                  <surname sort="1">Carlile</surname>
+               </persName>
+               <placeName ref="tgn:7010477">Manchester</placeName>
+               <date when="1836-11-11"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Turt01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Thomas</forename>
-                     <surname sort="1">Turton</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc">Shef01</idno>
-                  <idno type="tgn">7010692</idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine>35 Bailey Street</addrLine>
-                        <addrLine>Sheffield</addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Turt01">
+                  <forename sort="2">Thomas</forename>
+                  <surname sort="1">Turton</surname>
+               </persName>
+               <placeName ref="plc:Shef02">35 Bailey Street, Sheffield</placeName>
                <date></date>
             </correspAction>            
          </correspDesc>

@@ -4,90 +4,81 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country>USA</country>
-                  <region>California</region>
-                  <settlement>San Marino</settlement>
-                  <institution>Huntington Library</institution>
-                  <repository></repository>
-                  <collection>Carlile Papers</collection>
-                  <idno>mssRC 105</idno>
-                  <msName></msName>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-      </fileDesc>
+     <fileDesc>
+        <titleStmt>
+           <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+           <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+           <msDesc>
+              <msIdentifier>
+                 <country>USA</country>
+                 <region>California</region>
+                 <settlement></settlement>
+                 <institution>Huntington Library</institution>
+                 <repository></repository>
+                 <collection>Carlile Papers</collection>
+                 <idno>mssRC 105</idno>
+                 <msName></msName>
+              </msIdentifier>
+              <msContents>
+                 <msItem>
+                    <author></author>
+                 </msItem>
+              </msContents>
+           </msDesc>
+        </sourceDesc>
+     </fileDesc>
+     <encodingDesc>
+        <listPrefixDef>
+           <prefixDef ident="prsn" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="isni" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="http://isni.org/isni/$1">
+           </prefixDef>
+           <prefixDef ident="viaf" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://viaf.org/viaf/$1">
+           </prefixDef>
+           <prefixDef ident="plc" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="tgn" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+           </prefixDef>
+           <prefixDef ident="grp" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+           </prefixDef>
+           <prefixDef ident="work" 
+              matchPattern=" ([a-z]+) " 
+              replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/works/workography.xml#$1">
+           </prefixDef>
+        </listPrefixDef>
+     </encodingDesc>
       <profileDesc>
          <correspDesc>
             <correspAction type="sent">
-               <person>
-                  <idno type="prsn">Fell01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">John</forename>
-                     <surname sort="1">Fellows</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn">7007567</idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country>USA</country>
-                     <region>New York</region>
-                     <settlement>New York</settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
-               <date>1836-11-30</date>
+               <persName ref="prsn:Fell01">
+                  <forename sort="2">John</forename>
+                  <surname sort="1">Fellows</surname>
+               </persName>
+               <placeName ref="tgn:7007567">New York</placeName>
+               <date when="1836-11-30"/>
             </correspAction>
             <correspAction type="received">
-               <person>
-                  <idno type="prsn">Carl01</idno>
-                  <idno type="isni"></idno>
-                  <idno type="viaf"></idno>
-                  <persName>
-                     <forename sort="2">Richard</forename>
-                     <surname sort="1">Carlile</surname>
-                  </persName> 
-               </person>
-               <place>
-                  <idno type="plc"></idno>
-                  <idno type="tgn"></idno>
-                  <placeName></placeName>
-                  <location type="geopolitical">
-                     <country></country>
-                     <region></region>
-                     <settlement></settlement>
-                  </location>
-                  <location type="address">
-                     <address>
-                        <addrLine></addrLine>
-                        <addrLine></addrLine>
-                     </address>
-                  </location>
-                  <location type="geo">
-                     <geo></geo>
-                  </location>
-               </place>
+               <persName ref="prsn:Carl01">
+                  <forename sort="2">Richard</forename>
+                  <surname sort="1">Carlile</surname>
+               </persName>
+               <placeName></placeName>
                <date></date>
             </correspAction>            
          </correspDesc>
