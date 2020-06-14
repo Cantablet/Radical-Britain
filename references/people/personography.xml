@@ -83,6 +83,38 @@
               </listRelation>
               <note>RC 463</note>
            </person>
+           <person xml:id="Alda01">
+              <idno type="prsn">Alda01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Jonathan</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Aldam</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation> 
+              <note>RC 4[?]</note>
+           </person>
            <person xml:id="Alla01">
               <idno type="prsn">Alla01</idno>
               <idno type="isni"></idno>
