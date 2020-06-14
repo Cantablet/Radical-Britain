@@ -130,6 +130,45 @@
                     </location>
                     <note>RC 467</note>
                 </place>
+                <place xml:id="Donc01">
+                    <idno type="plc">Donc01</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>White Bear [Inn]</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement>Doncaster</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                    <note>RC 472</note>
+                </place>
+                <place xml:id="Donc02">
+                    <idno type="plc">Donc02</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Campsall Hall</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement>Doncaster</settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
                 <place xml:id="Enfi01">
                     <idno type="plc">Enfi01</idno>
                     <idno type="tgn"></idno>

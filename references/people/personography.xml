@@ -1612,7 +1612,7 @@
               <idno type="viaf"></idno>
               <persName>
                  <roleName type="nobility/honorific/office/military"></roleName>
-                 <forename sort="2"></forename>
+                 <forename sort="2">Richard</forename>
                  <forename full="init" sort="3"></forename>
                  <addName type="nick"></addName>
                  <addName type="epithet"></addName>
@@ -2134,6 +2134,37 @@
                  <addName type="nick">Zion</addName>
                  <addName type="epithet"></addName>
                  <surname sort="1">Ward</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+           </person>
+           <person xml:id="Wood01">
+              <idno type="prsn"></idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2">Neville</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Wood</surname>
                  <genName full="abb"></genName> 
               </persName>
               <listEvent>

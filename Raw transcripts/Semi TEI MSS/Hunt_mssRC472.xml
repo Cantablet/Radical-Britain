@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC472" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 472</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="">White Bear, Doncaster</placeName>
+               <date when="1839-06-07"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>My Dear Friend,</p>
+            <p>i made a great beginning last night to a fine audience ; but i so frightened the Clergy that they have threatened Mr Bright to buy no more trinkets of him if he allows me to use the Betting Room again. i never had a better audience as a beginning ; but there is rain falling and i have so far no chance but the open air this evening. i have called on the Mayor and am to see him at four o clock to ask for the Town Hall. this must go off at two. i sold 25 Dictionary  last night and expect to night to sell every book i have with me. the people behaved remarkably well in manners and in the expression of delighted approbation. had you, my desponding friend, been there, you would have said "go on at all hazards and consequences, in doors or out doors, home or no home , life or death, fortune or starvation". and so i will go on, if i walk from town to town and village to village, confined to bread and water. Mr Levison, the Dentist, complimented me this morning with saying he would have walked any distance to have heard the fine philippic i have the clergy of the established church last night for their neglect of the education of the people. i made the talk in Doncaster this morning, frightening some – pleasing others ; but fright is predominant among those who did not hear me. even the  people here in the Inn are beginning to exhibit alarm. alas! for superstitions mind!</p>
+            <p>the Crier of Doncaster is a Methodist Local Preacher and found himself in a pucker[?] to satisfy his conscience that i was a real convert from infidelity. he was sure i was by the bills ; but many out of doors assured him i was not. he went to Levison, came to me and i satisfied him of the goodness of my religion and that i was no infidel. he cried for me ; but declared he would neither cry for [[2]] Socialist or Chartist or Infidel! i doubt if the fool has slept to night between his illformed conscience and his interest.</p>
+            <p>i have a letter from Crowle saying no room can be got for me there in consequence of the alarm about Socialism. these Socialists will stand much in my way for a time. i send you the letter. if i see no profit in Doncaster, i shall go on to Leeds to morrow or sunday. my receipts, books and all, last night are 24/- but the expences 1/7/6. beside the Sun[?] Bill. i must save expence to night and pocket what i can get , if weather permits out of door work.</p> 
+            <p>i send this by the Coachman that brought me from the George and i wish you to pack me a parcel of all the books i left in the half of the drawer near the window and about 50 Dictionary if there be so many ; with the two shirts. if you get this in the evening, you may do it with much inconvenience and let the parcel be at the George to morrow by nine. letters or newspaper arrived not to be overlooked.</p>
+            <p>i had acute feelings about trespassing upon you beyond your convenience ; but i will strive to repay you with gratified interest powerfully[?]. i see the Fares from Sheffield to London are so low that i shall prefer going back that way or from Doncaster if so low here.</p>
+            <p>the letter to the Sunbeam i leave open that you may read it on sunday. wrap[?] it and put it under cover to Cousins for Lingard's parcel on tuesday morning.</p>
+            <p>get some friend to keep up the challenge to Hollick : though i do not think it would excite an interest in Sheffield.</p>
+            <p>i see the Whigs have dropped their modicum of education. they are utterly contemptible as ministers. the Doncaster Gazette gives me no notice. the Editor of the Chronicle says the Clergy ought to cope with me: mind he says this privately. i doubt [[3]] if he will say anything publicly or perhaps the contrary.</p>
+            <p>an impudent drunken printer of the name of Thompson who has seen me in London and Newcastle attempted annoyance last night about the print of the Christian's God. i told him there were Sectarian ministers who made a greater caricature of the Deitu and that turned the feelings of the audience : he then began to pour out fulsome compliment, declaring he had known me five and thirty years, even from my infancy and that i was a good, brave fellow. still he boasted of my recantation as evident.</p>
+            <p>i had a pretty group of well dressed ladies at first ; but unluckily they did not feel themselves kept sufficiently in countenance and i in giving St Paul's definition of a Jew had to read something about circumcision, which passes in a Church Pulpit ; but is offensive as a public reading elsewhere. The Doncaster man whom i saw in Rotherham claimed the verification of his prediction that i should have a better audience here.</p>
+            <p>my compliments and thanks to Mrs Turton and Jane. live on and see what may be done by perseverance. i have so afar won on Levison that he has invited me to see his Phrenological Museum at five this evening. my appearance at the Cutlers' Hall has done me good. it is talked about here and wonder expressed that i was not allowed to speak.</p>
+            <p>determine to be happy within yourself and family and let not the external circumstances annoy  you.</p>
+            <p>proud of exchanging friendship with you </p>
+            <p>richard carlile</p>
+      </body>
+  </text>
+</TEI>

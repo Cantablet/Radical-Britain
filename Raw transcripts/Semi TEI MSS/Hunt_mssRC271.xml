@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC271" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 271</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Wood01">
+                  <forename>Neville</forename>
+                  <surname>Wood</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="">Campsall Hall, [Yorkshire], care of Mr Abraham Lockwood, Coachman, Doncaster</placeName>
+               <date when="1839-06-21">21 June <supplied>18</supplied>39</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <roleName type="honorific">Revd</roleName>
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Sir, Altho' our opinions respecting the best plan of bringing about the reforms we both desire differ very widely, it is as least evident that we are agreed on one point, viz. the paramount necessity of "Free Inquiry." so  long as this is the watch-word, i care not whether my opponents be Orthodox or Infidel, Deist, Demonist, or Atheist, Whig, Radical, or Tory, because then there is an obvious desire for Truth. but where the advocates of a cause w[oul]d enforce their tenets in holder &amp; corners, or give them to the world without listening to or allowing others to listen to the opposite side of the question, must there not be a fear regarding the unsoundness of such hole- &amp;-corner doctrines? there are many ways of bringing about a theological reform. Mr James Hill adopts a very powerful one when he sets out by placing a proposition before his opponents, &amp; inviting them to refute or answer it ; &amp; then surely he is at liberty to illustrate his case by satirical &amp; comparative remarks, which, i have reason to know, will often have a far greater effect than mere dry, abstract reasoning. such is the style i have adopted in occasional letters to the "Star." in my last, e.g., i placed the Christians in a strait from which i defy them to extricate themselves ; &amp; having done this, i make [[2]] merry at their expense. but in the monthly periodical i have the honor of conducting – the "Naturalist"[?] – i have pursued another course, &amp; in several articles on Geology &amp; Scripture, &amp;c., have treated the subject with all due seriousness. the first thing is to excite an interest in the subject, &amp;, that done, go as deep as you will.–
+            in writing to me to offer your services as a lecturer, i presume you imagine i am connected with some Society in the neighbourhood. we have, it is true, a "Socy. for the Acquisition of Knowledge", &amp; a "Newspaper Club", both founded by ourselves ; but wishing the people to depend entirely upon themselves in every thing they do, i refuse to have any more authority over either Institution than as an ordinary member. i am therefore not authorised to invite any lecturer to come over. moreover, i sh[oul]d think your experience will have convinced you that it is the best plan to lecture untrammelled by the rules of any Society whatever. all i can say is, that if you think proper to come over, there is a good room to be had at Mr Jennings's Inn in the village, &amp; that i for one shall be glad of the opportunity of being present as an auditor. the announcement sh[oul]d of course be made a few days before-hand.
+            i can no more believe the Bible to be an entire "myth", &amp; devoid of all foundation on fact, than i can believe that it is inspired, &amp; that every word is true. neither do i consider it a tissue of superstition, tho' it is a very great engine for spreading superstition in a thousand different ways. i consider the Bible as i w[oul]d do any other book or human work – put it into the crucible of reason, adopt the good, &amp; reject the dross.
+            i have been told that Education is the universal panacea to heal &amp; prevent all moral, intellectual &amp; physical disease. so far i admit ; but you &amp; i w[oul]d probably differ respecting the means. some say that [[3]] Education is the best Charter of Freedom the people can possess. i on the contrary, hold that the "People's Charter" will be the only sure road to national education on the proper footing. this is no speculative point ; &amp; the people have but to claim their right to Universal Suffrage, to obtain it. if the rich are fit to choose their representatives, how abundantly more so are the "lower classes" ; for the former are miseducated &amp; interested in negotiating for themselves – the latter are sparely, but practically educated, &amp; have an interest in negotiating for the many. my arguments for Universal Suffrage are both à priori &amp; à posteriori ; &amp;, come what will, i am determined not to rest satisfied until the great People's Charter has become the law of the land. the People seek to recover their rights, [&amp;] i w[ill] assist them. this obtained, see how lon[g] we shall have an "Established Church! ["] See how [long] a bigotted priestcraft shall retain their hold over the people! Liberty &amp; Equality will then be the order of the day, &amp; then indeed we may confidently look forward to the time when the advocates of Free Discussion shall increase &amp; multiply rapidly in the land. i make no "castles in the air" – i don't expect Universal Suffrage will immediately &amp; suddenly place us in a "Paradise on Earth" – but i do believe that without it there can be no legislation for the majority of the nation. the people pay for their legislation, &amp; therefore the people sh[oul]d have an influence over the legislators. by passing the Charter, we shall certainly obtain a ground system of national education – &amp; that without any parliamentary "grants" for the purpose ; but by the policy of fitting the people for U. Suffrage, only individuals here &amp; there will be educated, by those rare aves who, like yourself, are willing to devote time to the subject. i am, Sir, yr. vy. obed. Sent.
+            Neville Wood 
+         </p>
+      </body>
+  </text>
+</TEI>

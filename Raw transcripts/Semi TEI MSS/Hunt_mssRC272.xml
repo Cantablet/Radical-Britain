@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC272" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 272</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Wood01">
+                  <forename>Neville</forename>
+                  <surname>Wood</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="plc:Donc02">Campsall Hall</placeName>
+               <date when="1839-06-27">27 June [18]39</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Dear Sir,
+            since receiving your first letter, it has struck me that it w[oul]d be much better – especially at this time of year – that your lecture sh[oul]d be delivered at Askean[?], a small meeting-place barely a mile from here, &amp; 6 miles N. of Doncaster. there is a good room at Mr. Hough's[?] Swan Hotel, &amp; i am confident you will have a much larger audience there than you could possibly have here. moreover, those who wish to go from Campsall, can easily do so if a notice is inserted in one or two of the windows. three or four notices w[oul]d be enough for both places, put on the walls or in shops windows 2 or 3 days before. at the same time, i am not acquainted with any one who w[oul]d like to take the responsibility of the preparations on himself. it is impossible any one sh[oul]d be able to do this so well as the lecturer himself. the price of entrance, if [[2]] any, sh[oul]d not be more than a penny[! Mark that for generosity! R.C.
+            I notice your challenges in the "Northern Star, "&amp; sh[oul]d no doubt take an entirely different view from yourself of each question, but it is of course impossible to discuss any of them in the limits of a letter.
+            i rem[ai]n, Dr Sir, | yr. obed. Sert.
+            Neville Wood
+            
+            P.S. I sh[oul]d be inclined to say 1/2 p. 7 o'clock in the evening w[oul]d be the best time for the lecture to commence.
+            
+            [[3, RC's hand] i was to pay for a room at the Inn, stop there three or four days and charge a penny for admission! Noble, Generous Woods of Campsall Hall ; Mr Neville Wood guaranteeing himself only as one penny customer. my expences would have been at least five pounds, swallowing up twelve hundred pence. what would my profits have been?]
+            Adieu ye Woods of Campsall Hall.</p>
+      </body>
+  </text>
+</TEI>

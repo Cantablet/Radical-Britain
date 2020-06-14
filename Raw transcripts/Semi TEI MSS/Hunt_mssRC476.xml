@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC476" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 476</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="">Bradford</placeName>
+               <date when="1839-06-28"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename><choice><abbr>Thos</abbr><expan>Thomas</expan></choice></forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn">11 Bailey Street Sheffield</placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>my dear Friend,
+            i caught the parcel safely at Hobson's on wednesdau and thank you for punctuality. i have not been idle any evening this week excepting that wednesday evening was wasted in Lloyd Jones preferring to me the Sheffield Boy, William Ashton, as an opponent. Jones certainly triumphed over him in a masterly manner ; but there was not the amount of instruction given to the audience that i was anxious to see given. i was silent ; but am to meet Lloyd Jones specially on tuesday evening in Leeds.– on saturday eveneing last, i began preaching in the Bradford Market Place, ground wet and weather unfavourable. on sunday evening, i preached in the open air to a very large audience, every one of whom it is said was pleased. the Socialists excepted, have brought back and renewed the sympathies of my old friends here. i entered the Socialist room on sunday evening  ; but they most cunningly shuffled off my speaking there. on monday evening, i challenged the Chartists in the Odd Fellows' Hall. they sent a deputation on sunday to know if i would give them half the receipts if they came to meet me. i said yes if they could give me a name as an opponent worth announcing. this they could not do ; so they bonded to keep away and threatened vengeance on those who did come. however i got in three hundred and more and covered expences. here i have them a sound lecture on political principles and their relation to the existing things in this country. 
+            [[2]] in the boldness of language, i astonished the few Chartists there, and showed them the superiority of the most free talk about political principles over their threats of physical force. the Chartists played the game[?] on tuesday evening of trying to keep away their party from my Bible Lecture but i got in again about three hundred and won the astonishment of all present in explanation of the historical defects. the Roman Catholic Priest, a Mr Kaye[?], came forward and paid me a high compliment for my political elucidation of the true principles of a Church : though he could not follow me out of his own limits and there pleased incomprehension. he offered to take the Vicarage of Bradford and keep the poor of Bradford out of the Benefice. i am called upon to repeat the tuesday's Lecture which i shall do and also lecture on phrenology for which a proposition is to come before the committee of the Mechanics Institution this evening. – on wednesday i went to Leeds. last night i met Lloyd Jones on the formation of character, before about 600 persons, in the Odd Fellows Hall. several of the Broad cloth gentry came and shook hands with me last night and thanked me for the service i had rendered their course. the Bradford Reporter has been making a fool of himself. the Leeds 'Times' has offered to report my political but not my theological lectures. — my stock of cash all costs paid in Bradford is £2,,10,,0 having remitted 2£ to London [[3]] since i left Sheffield. i am mending a little and hope to carry a few pounds more out of Bradford. i have an invitation to Dewsbury.
+            won't forget the Northern Star. O Brien was expected here but seems to have gone by. i saw Peter Bussey, his musket, bayonet and pike yesterday. Peter is an old friend of mine ; but is now Chart mad. 
+            i have not seen or heard of Mr Appleton yet. my Bradford friends are revived on hearing[?] no before the public. i have enough to do to eat and drink among them. the Socialists are rather boshexd[?] how to act : they both like and dislike me. Owen, i see, has been introduced at a Levee: that will be something to talk about for a week or two among the Socialists.
+            i wish to take Halifax and Rochdale before i return to Sheffield. 
+            excuse my paying postage. i feel that i have trespassed upon you : and yet i know that you will in spite of my means or inclination, keep me debtor.
+            love to Mrs Turton and Jane
+            yours &amp;c 
+            R. Carlile
+            [[4]] [top of page] i begin to feel  all my powers and extensive reading available in speech. this was not so until of late. the Bradford People are impatient of another periodical. i am just going to lodge a day with Squire Farmer[?]
+            [right margin] i shall be at Leeds on Tuesday if you have any news.
+            [bottom] my Dictionary will be out of print next week — The weather is bad and i hardly know what to do with myself to day. think of going to hear Greenbank lecture this evening. i am getting the name of the Prince of Lectures. Tuesday night electrified the audience. 
+         </p>
+      </body>
+  </text>
+</TEI>

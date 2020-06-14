@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC477" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 477</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="">Manchester</placeName>
+               <date when="1839-07-17"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>my dear Friend,
+            i have left you to find out by the Northern Star, where i have been the last  fortnight, increasing in usefulness, though not in wealth. i was able out of Bradford and Leeds receipts to send Mrs Carlile a five pound note, and ever since that i have not recovered myself so as to have a pound to spare. the Chartists and Socialists studiously unite against me. this evening in Bolton, there is a special meeting of Chartists called in the open air to keep them away from hearing me in the theatre. this is avowed. last night, i opposed the views of O Brien, or presented better principles rather, in Batty's Circus. O Brien is but a miserable orator with a miserable political subject. he fell much below my expectations. i began with an angry audience but mastered their feelings and commanded their respect. O Brien revenged himself by addressing Paine, not much to the taste of his audience. i have challenged him to further discussion, which i fear he will not accept. i have assured myself that he is a mere blarneying Irishman of the O Connel [sic] stamp. on monday night i had an audience below expences in the Carpenter's Hall. on sunday, a very large and well [[2]] behaved audience in Bolton Market Square. on friday last a large audience in Rochdale Church Yard [.] monday, wednesday and thursday in Halifax – to return  there next sunday. on sunday the 7th i addressed 5000 people in Leeds and Dewsbury. the former sunday in Bradford presented me with an audience of upwards of two thousand. i must be doing good ; for new as is my subject, it delights the audiences.
+            one of the best discussions i have had with Jones was in Leeds before a large audience. there was another in Bradford of the same kind. the Leeds Times will have told you something of this. i do not see the day yet when i can return to London, as i am still wanting and looking for money. to  morrow i am to be in Huddersfield, where they are building a fine Social Hall. i may have to visit Preston before i return to Sheffield ; but for this, i wait a letter from Gloucestershire .
+            i did  not see and could not hear of Mr Appleton of Leeds.
+            [[3]] i have well agitated every town i have visited since i left Sheffield, and i do not despair of putting myself at the head of a respectable popularity when the Suckbull [Tuckbull? something - bull anyway] of Chartism and Socialism has subsided ; to which i allow another twelve months. six months will settle Chartism. i could not find at the Northern Star Office a copy of O Brien's challenge. you may keep mine. he is no fire eater in oratory but a mere vain, conceited creature.
+            i expect from Wheeler and his party of mad caps here something of the same game as had been going on in Birmingham. that is a specimen of the beginning!
+            i am about to print a twopenny address to the Chartists, to seek to stay their present extravagance.
+            love to your family and respectfully yours
+            R. carlile
+            
+            you would have been proud of me before O Brien last night. 
+            
+            [[4]] [i sp]ent my last shilling this morning, so i leave you [only?] this letter.</p>
+      </body>
+  </text>
+</TEI>

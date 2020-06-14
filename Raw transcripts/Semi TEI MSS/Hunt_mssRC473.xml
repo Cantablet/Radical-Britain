@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC473" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 473</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="">Doncaster</placeName>
+               <date when="1839-06-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Turt01">
+                  <forename>Thomas</forename>
+                  <surname>Turton</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>My dear Friend,
+            i have the parcel safe this morning. many respectable people were vexed at my not being able to get the Concert Room last night. a Mr Mason, the Town Clerk, was so delighted with my discourse on thursday as to declare he was riveted and could remain all night. a wife of one of the Dissenting Preachers declared her satisfaction at what she heard and her great disappointment in not being able to come again last night. i had a famous audience last night in the market place and sold above a dozen dictionary. t took tea with Mr Levison last night and examined his Phrenological Museum. in every sense of the word he is a first rate character. the Socialists here are treating me as i think they ought with respect. they are too weak to be a sect, and last night helped me as well as they could. i see no chance of an introduction to the Woods. on tuesday next, Crabtree is to hold a Chartist meeting, which i think will be an abortion. his manners do not suit Doncaster. mine here caught the popular taste. i have just sold four vols of Mirabaud i had with me at the low figure of a shilling a volume ; to a Bookseller ; so i think you had better send me another parcel tomorrow morning with the shirts. as i was writing thus far, the bookseller came to say he would take all i had got at that price – so i'll let him have them ; but he is about to leave the town and wants them tomorrow. the same coach [[2]] comes tomorrow, leaving Sheffield at nine. i have now resolved on stopping sunday here and of preaching in the Market-Place tomorrow. i fear i shall not yet find Fleming at Leeds. the Mr Aldam writing from Crowle is a Draper. the one you see is a Farmer near Mansfield but they are all of the same stamp, prime fellows (their Socialism excepted).
+            you will understand that i want all the Mirabaud. there is an imperfect copy i took back from Lingard Lettered different from the others. you need not send that. you will see it socked[?].
+            i know you will be pleased with this trouble. my stock of money is but 1,,13,,0. i must not reduce it yet as i have a vill here to pay ; but i hope to send a little on monday.
+            Levison himself is astonished at my Scripture Interpretations and says i ought to print a neat Synopsis of them for personal sale. they will excite the country yet ; not withstanding all its devilisms and demeaners[?]. on whatever he lectures at Sheffield, he will be worth your notice. he is likely to report my appearance her in the Iris. the Doncaster Papers (both) say nothing. if i find the Woods here on tuesday, taking part in the Chartist Meeting, i will take part with them. i should like you to get and put a Moral World in my parcel tomorrow. you or someday can have a bit of music and song for it. i have enquired and it does not come here till wednesday.
+            have Faith my good friend – have Hope – Charity you have in abundance. Faith, Hope and Charity are blessed qualifications in this wicked world. all that the Doncaster Religious Folks can [[3]] say to me is to ask how it is i am the only wise man on the subject of religion in the country i answer that it is for them to find out that : to find out as i have done how they have been misled.
+            i pity the stolidity of the Materialists who cannot see my present course to be the more useful and more effectual. bigotry is universal ; it belongs to every sect and party. be you a Catholic Christian.
+            i have not time to fill up my sheet – But this i know will make sunday a little pleasanter to you.
+            i shall most probably write again on monad.
+            love to Mrs Turton and Jane, Mary Anna and husband.
+            respectfully 
+            richard carlile
+            
+            i am very happy in Doncaster – 
+         </p>
+      </body>
+  </text>
+</TEI>
