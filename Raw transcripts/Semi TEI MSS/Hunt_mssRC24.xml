@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC24" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 24</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Shar01">Isis</persName>
+               <orgName></orgName>
+               <placeName ref=""><supplied>London</supplied></placeName>
+               <date when="1832"><supplied>[c. 1832]</supplied></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname full="init">C.</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Isis to RC
+            i have been indulging in a naivety of feelings since your letter came to hand; some of which were in some degree painful, and others were of a more pleasing cast: the painful ones, arise in a great degree from the insinuations held out by others[?] and in so offensive a manner communicated to you; I must to day command him to speak out. 'tis no trifling subject: if I, or any other person [with] whom you are surrounded[?], are really acting unjustly toward you, tis fitting you should know it, and the sooner, the better. when Thomas[?], so insulting told me that he would do me all the injury he possibly could, i thought he meant in relation, to an attachment, which my conduct, has led him to discover, I much fear, too easily. I feel a conscious rectitude of purpose, and intention in every transaction, that, as far, as my feeble endeavours would allow, i have served you; at least, in every instance, my wish was, to do you all the good I could. if a sincere regard for your person and manners: If a reverence, and respect, for your sufferings; If admiration, of your political character: If respect for your intellectual attainments: If an endeav[our] to imitate your virtuous example, your nob[le?] conduct: If an anxiety, for your future welfare[:] If a desire to serve, to assist, to comfort, to contribute to your happiness: If a love, as ardent, as pure, as tender, as true and as disinterested, has ever warmed a woman's heart: If I say, sentiments, such as are [[2]] here expressed, be acts of injustice, I plead guilty in every sense of the word: but, in a contrary point of view, I reject, with scorn, with ineffable contempt the accusation. Do not suffer a thought detrimental to our peace, to intrude in your bosom, which i wish, only to be the seat of rest. Believe me [in] saying, that i have ever had, since i have [kn]own you, your interest, and happiness, at heart. I am sincerely attached to you and during our twenty years connexion, you will even find me acting according to your circumstances; to do well for you, will be doing well for myself. And in whatever circumstances we are placed, you shall ever find me cheerful, placid, and agreeable; happy in your love, secure in your regard; and aiming to be everything you wish me to be, "an highly gifted intellectual woman," Think no more of what Thomas [?] has said, which I declare him to be a rascal toward me and you particularly: place reliance upon my affection, and when, an anxious wish to please and to act honorably toward you, whom I prefer to all [th]e world; Do not injure yourself, and me by a suspicion, unworthy of both. In deviating the remainder of my life to your service, I shall act, in accordance with my feelings and desires, I never wish to leave you, and hope always to be near you, Never to part until we are divided by death.
+         </p>
+      </body>
+  </text>
+</TEI>

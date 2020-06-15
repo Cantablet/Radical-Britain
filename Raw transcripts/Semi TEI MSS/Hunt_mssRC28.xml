@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC28" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno></idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Shar01">Isis</persName>
+               <orgName></orgName>
+               <placeName ref=""><supplied>London</supplied></placeName>
+               <date when="1832"><supplied>c. 1832</supplied></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Isis to R.C. health and tranquillity
+            A letter from Bolton has at length found its way to London, and my bosom is bursting with indignation, and sorrow; with indignation for the contemptible and satirical style and manner in which the letter is written and sorrow for a parent's suffering, my God ; what shall I do ? leave you, my dear Rich[ar]d, I cannot, t'would be death to me, and your hopes; and your, and my cause... My own hopes are that mother is not so ill has[sic] is represented and that, they have written in such a strain to induce me to give up my purpose, what must I do ? oh, how I wish that you were at liberty, to, advise, and comfort me, I am quite alone in this large place, David[?] wished to go out with Thomas, and I could not refuse, 'tis the first time he made the request. Mrs. Hudson merely gave me the letter and then went out again ; all is shut up and I feel; to want your presence so much. [[2]] Oh ! Richard I think my heart will burst, that cruel, taunting, unkind, insulting letter I could have forgiven him if it had not contained the distressing intelligence of my Mother['s] illness: inconsiderate, unfeeling wretch you have not written in haste, but must have sat and premeditated every word, so that you might doublv wound, doubly wring my over-whelmed heart. My dear Richard what must I do ? You are all the world to me, yet I cannot divest myself of those feelings which are now almost too much for me to bear; were I to return home to-morrow it'would perhaps avail nothing: and the idea is madness itself to me, you must forgive me Richard for troubling you with my grief and sorrow, but methinks my brain will turn if I do not give you a little of them, Remember you are my friend, my husband, and never did I require your love, your care so much as now, my Brother has probed to my heart's core, by heaven, [[3]] I think I shall never forgive him[.] I will never again write to him; he shall never hear from me[.] I will write to my sister tomorrow [;] how I feel for her, poor Maria! My heart is torn with contending emotion[.] I long to go home for mother's sake and Maria's but for my own sake I wish to remain with you[.] I feel quite assured that if I return home that I shall never see you again, and what say you to that ? Are you willing to relinquish your Isis, ..... your (ne[damaged] wife) bride ! Oh Richard do endeavour for my sake to obtain your liberty. I will endeavour to be all that you can wish[.] I will strive to equal Miss F. Wright,... my eyes are quite swollen with tears; the first I have shed since I came to town, I wish much to Breakfast with you this morning, but really I am afraid the Governor will [[4]] think my visits too frequent. I however hope to see you some part of the day and to hear from you early in the morning. I am afraid my dear R- you will think me very weak, very unlike a Philosopher. t'was only today I was boasting of courage and firmness. I cannot but think that empty vessels make the greatest sound. Good-night
+         </p>
+      </body>
+  </text>
+</TEI>

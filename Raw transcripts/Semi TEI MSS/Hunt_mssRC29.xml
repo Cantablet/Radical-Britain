@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC29" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 29</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Shar01">Isis</persName>
+               <orgName></orgName>
+               <placeName ref=""><supplied>London</supplied></placeName>
+               <date when="1832"><supplied>c. 1832</supplied></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname full="init">C.</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Isis to R.C. Of all men, the most intelligent and the most beloved! When you receive this note, i shall be, in person, many miles distant: but united in heart, in thought, in corresponding sentiment, in mind, in ?aul immutable love, and affection, These are the two first days that we have been separated! That we have been taken away from each other: and altho' i am writing this before my departure: because there will be no opportunity of sending during my absense [sic], i can very easily anticipate what my feeling, and disposition, will be on sunday morning. i shall be surrounded by friends, anxious to make me comfortable, and they will wear a smile upon their faces: but my bosom, [[2]] will pant for him, whom it has been accustomed to meet, and whom it adores! It will pant for its accustomed embrace! from him, on whom, my eyes gaze with pleasure, and delight; him whose features shine with perfect integrity; with confidential affection: with intelligence; with candourl; with conscious dignity; with friendship: with reciprocal love, and with manly beauty. 
+            My attachment becomes stronger every day! [the] more I see and know of you the more I admire, love, and esteem you, and the more reluctant I am to be absent one moment from you. Oh ! may it be always thus! In twenty years, may we embrace [[3]] each other in tried affection! and again, renew our engagement of everlasting fidelity, honesty, and truth. I sincerely love you, .... and flatter myself that my absence will be a little regretted to day, the day on which I shall request David, to convey this note: Let us be happy in the kind assurance of each other's love ; let us bless each other, with a free, affable, and corresponding deportment towards each other. Let us strengthen each other, so as to be able to contend with existing evils: but let us never deviate one moment from our principle. Let not the presence of the Misses Laws on Sunday make you to forget me. Remember, my love, that now [[4]] I have a double claim to your protection, to your assistance, to your kind protection, to your solicitude, to your love! Oh ! do, be faithful, be constant: do not encourage a thought to arise that will, in the least, stem the torrent of affection with which my bosom is overflowing. 
+            I hope, ere this your cold is better. Do, my dear Richard, take care of yourself. The name of Richard is doubly dear to me; my father[']s, my beloved father's name, was Richard, and now my husband's! my lover[']s name is Richard! I love to dwell upon it. Adieu, most valued, most beloved of men. God bless you, my Philosopher ! ! !
+         </p>
+      </body>
+  </text>
+</TEI>

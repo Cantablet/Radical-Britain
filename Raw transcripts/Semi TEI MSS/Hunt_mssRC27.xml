@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC27" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno></idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Shar01">Isis</persName>
+               <orgName></orgName>
+               <placeName ref=""><supplied>London</supplied></placeName>
+               <date when="1832"><supplied>c. 1832</supplied></date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Carl01">
+                  <forename full="init">R.</forename>
+                  <surname full="init">C.</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Isis to RC - Happiness,
+            There was only one object wanting to render Mr Owen's  institution a perfect paradise! the company was very numerous, being i suppose, about 2000 individuals in attendance, upon whose countenances, joy, health and happiness seemed to beam oh! what folly, to look beyond this world for Heaven, i thought, has[sic] i gased [sic] upon the happy throng: oh! that man would become rational, make, for it is in his power, a heaven upon earth ; instead of which, like the dog in the fable, [he] is grasping at a shadow, and losing the substance. Oh that man would cease to be inconsistent, that he would cease to act so contrary to reason, and common sense, by soaring above his comprehension, and understanding in search of that, which is, in his immediate possession. My evening's amusement was greatly enhanced, by the introductions which took place between myself and several of the Delegates, particularly those who came from Lancashire, I was introduced, as the ' Lady Isis ', and was indeed warmly, and I may say affectionately, received, my fame, they were pleased to say, had spread abroad in Lancashire, and the Co-operators were anxiously awaiting the time when you, and I, could pay them a visit, your name being introduced, and with so much ardor, and respect, afforded me additional pleasure; two or three, were requested, by the society to see you if possible, and are calling to day at Fleet Street, in order to be taken by me to prison, what think you, love, must I attend them or send Mullins, you must decide. Do say yes! because, remember, I did not see you yesterday. I promise not to stay a moment with you, and I really have a great deal to say, for I have seen a [[2]] gent, from Bolton who heard a sermon preached in our church on the Farce day, and all about me. Now, must not I come, just while I tell you the news; the hour appointed for the two gents, to call here is one o'clock: now love if you think it will be more prudent to remain at my post I will submit cheerfully, altho, tomorrow I may not see you. My visit to the amiable Misses Laws' must be deferred, tomorrow I cannot go and lecture [too], Mr. Smith is going, he told me, I saw Mr. Prout last evening, and had a nice chat with him. I have sent you a No. of the Co-operative Society. I thought of filling up this bit of paper, but Thomas is waiting. Adieu." </p>
+      </body>
+  </text>
+</TEI>

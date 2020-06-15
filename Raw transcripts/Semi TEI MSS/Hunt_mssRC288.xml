@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC288" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 288</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Carl01">
+                  <forename>Richard</forename>
+                  <surname>Carlile</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="plc:Enfi01"></placeName>
+               <date when="1839-12-27"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Barn01">
+                  <forename><supplied reason="omitted-in-original">Thomas</supplied></forename>
+                  <surname><supplied reason="omitted-in-original">Barnes</supplied></surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Sir, 
+            pursuant to the request of an advertisement in the Times Newspaper of saturday last, that Lecturers may send to you their names, addresses, subjects terms &amp;c. i write to say that i have a course of Lectures which i am exceedingly anxious to make more public and offer to meet the terms of any association that shall cover my expences. my Lectures purely belong to Science. On Science and nothing else will i ever Lecture. but mine carry the peculiarity, of being Scientific theological Lectures. [Break.] i am prepared with historical and geographical evidence to prove that there is not a little [tittle?] of such history in the Bible from the first chapter of the Book of Genesis to the last of Saint John's Gospel. and under the strength of this proof, i am prepared to prove,  that the whole subject of the Bible is the dramatized science of the human mind in its creation, fall [[2]] into superstition, past and present capacity under idolatry and promise of future resurrection and ascension to pure science. Break. i ask from the Society for the diffusion of useful knowledge, as from a body of influential men, that it examine me on the ground of historical evidence, in which there can be neither wrong conceits nor fancies. Break. after or before lecturing, i offer to submit myself to the most rigid criticism and discussion of the most competent men that can be produced to try the correctness of my capacity as a Lecturer, on this peculiar subject : the on i deem most essential to political, theological, moral and social improvement. i have lectured extensively in the metropolis and over England and Scotland ; but as i never write my lectures i have no fixed number as a course. i could condense the subject into a Lecture or extend it indefinitely. 
+            i have residing with me a Lady of the name of Elizabeth Sharples, who is certainly the best female Lecturer of the country and has, i think the best course of Phrenological Lectures that has yet been prepared. she has not yet delivered more than three of them, Manuscript copies of which are ready to be submitted to examination. there [[3]] [these?] one or more have been delivered in two places of the metropolis, the Mutual Intstruction Society in Truer[?] Street  and the Hall of Science in the City Road ; in the Tower Hall of Gravesend, before the Mayor, Justices and a most respectable party ; in the Theatre of Carlisle in Cumberland, and at Annan in Scotland. the course of six is not fully prepared in manuscript but could be got ready in a few weeks and be submitted to examination, —
+            the peculiarity of this course of Phrenological Lectures is the phrenological illustration of all the leading Bible Names or Terms, treating the Bible as a volume of mental and moral science.  the Lady is certainly the first female lecturer of the country.
+            though each has need to cover expences, we make private emolument secondary to public instruction. 
+            i am, Sir, your | obedient servant 
+            Richard Carlile
+         </p>
+      </body>
+  </text>
+</TEI>
