@@ -51,6 +51,38 @@
   <text>
      <body>
         <listPerson>
+           <person xml:id="Abbo01">
+              <idno type="prsn">Abbo01</idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military">1st Baron Tenterden</roleName>
+                 <forename sort="2">Charles</forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="nick"></addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1">Abbott</surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>  
+              <note>RC 2</note>
+           </person>
            <person xml:id="Acla01">
               <idno type="prsn">Acla01</idno>
               <idno type="isni"></idno>
@@ -1179,6 +1211,38 @@
               <listRelation>
                  <relation name="" active="" mutual="" passive=""></relation>
               </listRelation>  
+           </person>
+           <person xml:id="Hia01">
+              <idno type="prsn"></idno>
+              <idno type="isni"></idno>
+              <idno type="viaf"></idno>
+              <persName>
+                 <roleName type="nobility/honorific/office/military"></roleName>
+                 <forename sort="2"></forename>
+                 <forename full="init" sort="3"></forename>
+                 <addName type="alias">H.I.A.</addName>
+                 <addName type="epithet"></addName>
+                 <surname sort="1"></surname>
+                 <genName full="abb"></genName> 
+              </persName>
+              <listEvent>
+                 <birth when="">
+                    <placeName ref=""></placeName>
+                 </birth>
+                 <death when="">
+                    <placeName ref=""></placeName>
+                 </death>
+              </listEvent>
+              <sex></sex>
+              <nationality></nationality>
+              <education></education>
+              <occupation></occupation>
+              <affiliation></affiliation>
+              <floruit></floruit>
+              <listRelation>
+                 <relation name="" active="" mutual="" passive=""></relation>
+              </listRelation>
+              <note>RC 1, an attendee of Taylor's lectures at the Rotunda</note>
            </person>
            <person xml:id="Hill01">
               <idno type="prsn">Hill01</idno>

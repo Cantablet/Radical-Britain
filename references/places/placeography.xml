@@ -285,6 +285,25 @@
                     </location>
                     <note>Residence of James Cooper, see RC 89</note>
                 </place>
+                <place xml:id="Lond06">
+                    <idno type="plc">Lond06</idno>
+                    <idno type="tgn"></idno>
+                    <placeName>Westminster Hall</placeName>
+                    <location type="geopolitical">
+                        <country></country>
+                        <region></region>
+                        <settlement></settlement>
+                    </location>
+                    <location type="address">
+                        <address>
+                            <addrLine></addrLine>
+                            <addrLine></addrLine>
+                        </address>
+                    </location>
+                    <location type="geo">
+                        <geo></geo>
+                    </location>
+                </place>
                 <place xml:id="Manc01">
                     <idno type="plc"></idno>
                     <idno type="tgn"></idno>

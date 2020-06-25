@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="Hunt_mssRC1" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>USA</country>
+                  <region>California</region>
+                  <settlement></settlement>
+                  <institution>Huntington Library</institution>
+                  <repository></repository>
+                  <collection>Carlile Papers</collection>
+                  <idno>RC 1</idno>
+                  <msName></msName>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author></author>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="prsn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/people/personography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="isni" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://isni.org/isni/$1">
+            </prefixDef>
+            <prefixDef ident="viaf" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://viaf.org/viaf/$1">
+            </prefixDef>
+            <prefixDef ident="plc" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/places/placeography.xml#$1">
+            </prefixDef>
+            <prefixDef ident="tgn" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="http://vocab.getty.edu/page/tgn/$1">
+            </prefixDef>
+            <prefixDef ident="grp" 
+               matchPattern=" ([a-z]+) " 
+               replacementPattern="https://github.com/Cantablet/Radical-Britain/blob/master/references/groups/groupography.xml#$1">
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="prsn:Hia01">H.I.A.</persName>
+               <orgName></orgName>
+               <placeName ref=""></placeName>
+               <date when="1831-07-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="prsn:Tayl01">
+                  <forename><choice><abbr>Robt</abbr><expan>Robert</expan></choice></forename>
+                  <surname>Taylor</surname>
+               </persName>
+               <orgName></orgName>
+               <placeName ref="tgn"></placeName>
+               <date></date>
+            </correspAction>            
+         </correspDesc>
+      </profileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Revd. Robt Taylor [margin: Brevier]</p>
+            <p>Esteemed, and much Respected Sir:</p>
+            <p>I being one of those who have been in the habit of attending the Rotunda frequently (almost regularly) ever since it has been opened by you and your Noble Friend Mr. Carlile. it would be a want of gratitude on my part, were I not to express the entire satisfaction with which I have heard your lectures.</p>
+            <p>Scarcely do I know which to admire most, the Morning, or the Evening Lectures: the High Morality of the one; or the Learning and Science of the other.</p>
+            <p>I feel Sir, that I owe a debt to you, which it will never be in my power to discharge for the vast intellectual improvement which I have derived from attending your Lectures.</p>
+            <p>Oh [Ah?] Sir! words cannot tell with what feelings of Grief, and Indignation, my heart was filled, when I learnt the Cruel; the Barbarous Sentence which was passed upon you.</p>
+            <p>Hardly could I believe my Senses, when they informed me, that it was in the Nineteenth Century; in the year 1831; twelve months after the Second French Revolution; that the Rev. Robt Taylor, the Moralist [double underline] [,] the Philosopher, was sentenced to be incarcerated in a Dungeon for Libel [double lined] (for this is the real amount of the sentence) and for what? why because He [double] is a Philosopher [double], and Moralist [double], because Learning; Science; and Truth; are his and Ignorance; Superstition; and Falsehood; theirs.</p>
+            <p>And do I live in that Boasted Land of Freedom[;] that Land, which they tell us is the "envy of surrounding Nations" and behold Truth in Chains, Philosophy in a dungeon, and the Iron Bolt of Ignorance and Fanaticism; turned upon Learning and Science.</p>
+            <p>This Sir is Christian Virtue; but it is not following the Pagan Precept: "Do unto others as you would, they should, do unto you"[.] O, that the time may come, and come that it will, when 'they shall be done unto, as they have done unto you': if Infidel Virtue can permit it.</p>
+            <p>Some of the mercenary Press, have called us "Fools", "Ideats" [sic], and "deluded followers of Mr. Taylor" but they it is who would delude us, and when they do, then may they call us "fools" and "Ideats": I felt Indignation and Revenge, arising in my heart, but Infidel Philosophy, soon soften'd Indignation and Revenge, into Pity and Contempt.</p>
+            <p>Oh Sir: how little do they know: in what  real virtue consists, who suppose that Infidels could be guilty of cruelty, or malice: No Sir, tis Reason [double] that makes the Infidel, and therefore 'tis a Moral Impossibility, that he can be cruel or malicious. deeply do I sympathise with you in your suffering but I almost envy you. your suffering, in such a Glorious [double] cause, as that of Infidelity, which means; Liberty, Truth, and Science.</p>
+            <p>Oh how much depends upon your fate.</p>
+            <p>I would say to the Lovers of Truth and Liberty. "Oh ye Lovers of Truth and Liberty: make this cause your own, and rest not day, nor night, till Truth and Liberty; be triumphant [double]."</p>
+            <p>sir, i trust you will pardon me, for occupying so much of your attention; but I could not have said less to have done justice to my feelings; and to the Great and Glorious cause.</p>
+            <p>I will conclude by reechoing the cry of your truly Great; Noble [double]; and Admirable [double] Friend, and Brother Martyr, Mr. Carlile. "Live!" "Live!". for humanity's sake, and Victory must be yours <sic>yours</sic>.</p>
+            <p>I am your Sincere Admirer</p>
+            <p>and a Friend to Persecuted</p>
+            <p>Philosophy</p>
+            <p>H.I.A.</p>
+            
+            <p>[overleaf] 
+            July 18-</p>
+            <p>HIA to Revd R Taylor</p>
+            <p>and his comments</p>            
+            <p>But if they follow [sic] not w[ith?] my ???? - they shall never find out my riddle which is--</p>
+            <p>τι βρωτον εζηλθ.ν .π βιβρωδποντος, ... απο  ισχ.ρδ</p>
+            
+            
+            <p>I am highly gratified with this letter. I say, Brother Richard, What a Strong [thing? damaged] Philosophy must be when Ignorance is obliged to fasten it down, under Sixteen [double Iron bolts</p>
+            
+            <p>Mem: I have ascertained, that, as I sit here in this Dungeon,- there are absolutely 16 Sixteen [double] locks to be unlocked, ere any individual, could have access to Our presence. By the Gods, my friend.- We are somebody at last.</p>
+            <p>the Philistines, it seems, do with all their Naivety [?] are afraid of the use I should make of my Jawbone.</p>
+      </body>
+  </text>
+</TEI>
